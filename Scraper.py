@@ -25,8 +25,8 @@ driver = webdriver.Chrome()
 
 #----
 # Collect a list of pages to scrape
-#driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/')
-# escape the popup
+driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/')
+escape the popup
 #ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 # extend the page with the 'more' button
 #more = driver.find_element_by_link_text('More')
@@ -66,23 +66,19 @@ for url in a:
     address = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[1]').text
     phone_number = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[2]/a').text
     email = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[3]/a').text
-    website = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[4]/a').text
+    website = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[4]/a').get_attribute('href')
     # append the element to the empty list
     b.append(title)
     b.append(address)
     b.append(phone_number)
     b.append(email)
     b.append(website)
-
+    #not all working hours are available
     try:
         working_hours = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[5]').text
         b.append(working_hours)
     except NoSuchElementException:
         b.append('')
-
-
-
-
 
     #write the element to the .csv file
     outputWriter.writerow(b)

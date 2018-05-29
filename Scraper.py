@@ -1,11 +1,3 @@
-# atsidaryti nauja csv faila
-# atsidaryti browseri
-# prasukti per visus to tipo peidzus:
-# rinkti elementus ir savinti i faila
-# savinti i csv faila
-# Uzsavinti csv faila
-
-
 from selenium import webdriver
 
 from selenium.webdriver.common.by import By
@@ -30,37 +22,40 @@ driver = webdriver.Chrome()
 #     'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-dental-clinic-denticija/',
 #     'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-arinija/',
 #     'http://visit.kaunas.lt/en/medical-tourism/dentistry/teeth-whitening-salon-smile-lab/'
-#
-# ]
 
-# Collect a list of pages to scrape
+# Open chrome
 driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/')
+# driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/?start=10')
+
 # escape the popup
 ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 # extend the page with the 'more' button by running JS code
-driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
-
-# more = driver.find_element_by_css_selector('#body > div.product-list.ajax-list.category-wrapper > div.products > span:nth-child(12) > a')
-# more.click()
+# driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
 
 # find all links to the places
-links = driver.find_elements_by_class_name('product-title')
-for element in links:
-    link = element.get_attribute('href')
+links = []
+titles = driver.find_elements_by_class_name('product-title')
+for title in titles:
+    link = title.get_attribute('href')
+    print(link)
     links.append(link)
-print(links)
+
+# escape the popup
+# ActionChains(driver).send_keys(Keys.ESCAPE).perform()
+# # extend the page with the 'more' button by running JS code
+# driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
 
 
 #empty list for appending new data and writing to csv
 b = []
 
 # Open a file to write csv to
-outputFile = open('dentistry.csv', 'w', newline='')
+outputFile = open('dentistry2.csv', 'w', newline='')
 outputWriter = csv.writer(outputFile)
 
 # Go through the pages and select the wanted elements
-for url in a:
-    driver.get(url)
+for link in links:
+    driver.get(link)
     # escape the popup
     ActionChains(driver).send_keys(Keys.ESCAPE).perform()
     # find the element

@@ -23,33 +23,35 @@ import csv
 # Open the browser
 driver = webdriver.Chrome()
 
-#----
+#manually collected page urls:
+# a = [
+#     'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-malo-clinic-dpc/',
+#     'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-implantology-center-kic/',
+#     'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-dental-clinic-denticija/',
+#     'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-arinija/',
+#     'http://visit.kaunas.lt/en/medical-tourism/dentistry/teeth-whitening-salon-smile-lab/'
+#
+# ]
+
 # Collect a list of pages to scrape
 driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/')
-escape the popup
-#ActionChains(driver).send_keys(Keys.ESCAPE).perform()
-# extend the page with the 'more' button
-#more = driver.find_element_by_link_text('More')
-#more.click()
-#
-# links = driver.find_elements_by_class_name('product-title')
-# for element in links:
-#     link = element.get_attribute('href')
-#     links.append(link)
-#     print(link)
+# escape the popup
+ActionChains(driver).send_keys(Keys.ESCAPE).perform()
+# extend the page with the 'more' button by running JS code
+driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
 
-#----
+# more = driver.find_element_by_css_selector('#body > div.product-list.ajax-list.category-wrapper > div.products > span:nth-child(12) > a')
+# more.click()
 
-# manualy collected list to scrape
-a = [
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-malo-clinic-dpc/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-implantology-center-kic/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-dental-clinic-denticija/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-arinija/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/teeth-whitening-salon-smile-lab/'
+# find all links to the places
+links = driver.find_elements_by_class_name('product-title')
+for element in links:
+    link = element.get_attribute('href')
+    links.append(link)
+print(links)
 
-]
 
+#empty list for appending new data and writing to csv
 b = []
 
 # Open a file to write csv to

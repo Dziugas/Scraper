@@ -16,24 +16,40 @@ import time
 # Create a driver
 driver = webdriver.Chrome()
 # Open chrome
-driver.get('http://visit.kaunas.lt/en/medical-tourism/')
+driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/')
 # escape the popup
 ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 # extend the page with the 'more' button by running JS code
 
 #execute JS script to find and activate the "More" button for more results
-driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
+
+time.sleep(2)
+
+#fails on is_displayed()
+button_element = driver.find_element_by_class_name('button-white')
+if button_element.is_displayed():
+    driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
+else:
+    pass
 
 
-time.sleep(10)
+time.sleep(3)
 
 # find all links to the places
 titles = driver.find_elements_by_class_name('product-title')
 
-def print_links():
+def write_links():
+    links = []
     for title in titles:
         link = title.get_attribute('href')
-        print(link)
+        links.append(link)
+    return links
 
-print_links()
+print(len(write_links()))
+
+# def print_links():
+#     for title in titles:
+#         link = title.get_attribute('href')
+#         print(link)
+# print_links()
 

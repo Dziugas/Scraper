@@ -20,7 +20,7 @@ driver = webdriver.Chrome()
 
 a = [
     'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-angitia/',
-    # 'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/sauleja-spa/',
+    'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/sauleja-spa/',
     'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/clinic-beauty-world/',
     'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/royal-spa-residence/',
     'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/5-senses/',
@@ -37,7 +37,7 @@ a = [
     'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/azuolynas-medical-spa/',
     'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/beauty-surgery/',
     'http://visit.kaunas.lt/en/medical-tourism/dentistry/teeth-whitening-salon-smile-lab/',
-    # 'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/wellness-travels/',
+    'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/wellness-travels/',
     'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-eraimplant/',
     'http://visit.kaunas.lt/en/medical-tourism/orthopaedy/ab-ortopedijos-technika-orthopaedy/',
     'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-versme/',
@@ -47,34 +47,18 @@ a = [
     'http://visit.kaunas.lt/en/medical-tourism/general-practice-and-diagnostics/the-general-medicine-practice-clinic/',
     'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/era-esthetic-lazerines-dermatologijos-klinika/',
     'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-sidanta/',
-    # 'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/medvisus/',
-    # 'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/east-island-spa/',
+    'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/medvisus/',
+    'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/east-island-spa/',
     'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/sana-beauty/',
     'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/gp-clinic/',
     'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/grozio-akademija/',
     'http://visit.kaunas.lt/en/medical-tourism/dentistry/international-dental-clinic-pro-implant/'
 ]
 
-# Open chrome
-#driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/')
-# driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/?start=10')
-
-
-# # extend the page with the 'more' button by running JS code
-# driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
-#
-# # find all links to the places
-# links = []
-# titles = driver.find_elements_by_class_name('product-title')
-# for title in titles:
-#     link = title.get_attribute('href')
-#     print(link)
-#     links.append(link)
-
-#empty list for appending new data and writing to csv
+# empty list for appending new data and writing to csv
 b = []
 
-# Open a file to write csv to
+# Open a new csv file to save(write) the results
 outputFile = open('medicalTourism.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
@@ -85,17 +69,25 @@ for link in a:
     # escape the popup
     ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
-    # find the element
-    title = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/h1').text
-    address = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[1]').text
-    phone_number = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[2]/a').text
-    website = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[4]/a').get_attribute('href')
+    # find elements and append to the empty list b, or enter empty values if elements not found
 
-    # append the element to the empty list
-    b.append(title)
-    b.append(address)
-    b.append(phone_number)
-    b.append(website)
+    try:
+        title = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/h1').text
+        b.append(title)
+    except NoSuchElementException:
+        b.append('')
+
+    try:
+        address = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[1]').text
+        b.append(address)
+    except NoSuchElementException:
+        b.append('')
+
+    try:
+        phone = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[2]/a').text
+        b.append(phone)
+    except NoSuchElementException:
+        b.append('')
 
     try:
         email = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[3]/a').text
@@ -104,18 +96,24 @@ for link in a:
         b.append('')
 
     try:
-        working_hours = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[5]').text
+        website = driver.find_element_by_xpath('//*[@id="body"]/div[2]/div[1]/div[3]/div/span[4]/a').text
+        b.append(website)
+    except NoSuchElementException:
+        b.append('')
+
+    try:
+        working_hours = driver.find_element_by_class_name('ticekt-calendar').text
         b.append(working_hours)
     except NoSuchElementException:
         b.append('')
 
-    #write the element to the .csv file
+    # write the element to the .csv file
     outputWriter.writerow(b)
 
     # empty the list for the next page
     b = []
 
-#close the .csv file
+# close the .csv file
 outputFile.close()
 
 # close driver/browser

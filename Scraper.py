@@ -16,6 +16,8 @@ import csv
 driver = webdriver.Chrome()
 
 # manually collected page urls:
+# some don't work, maybe because not all elements are available
+
 a = [
     'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-angitia/',
     # 'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/sauleja-spa/',
@@ -57,8 +59,6 @@ a = [
 #driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/')
 # driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/?start=10')
 
-# escape the popup
-ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
 # # extend the page with the 'more' button by running JS code
 # driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
@@ -75,7 +75,7 @@ ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 b = []
 
 # Open a file to write csv to
-outputFile = open('medicalTourism.csv', 'w', newline='')
+outputFile = open('medicalTourism.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
 # Go through the pages and select the wanted elements

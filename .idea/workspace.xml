@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="385402e5-92b1-4e45-9c64-4045c9148013" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollectPages.py" afterPath="$PROJECT_DIR$/CollectPages.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scraper.py" afterPath="$PROJECT_DIR$/Scraper.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Scraper.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Scraper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="83" selection-end-column="20" />
+            <state relative-caret-position="149">
+              <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollectPages.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CollectPages.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CollectPages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="493">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -58,8 +58,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scraper.py" />
         <option value="$PROJECT_DIR$/CollectPages.py" />
+        <option value="$PROJECT_DIR$/Scraper.py" />
       </list>
     </option>
   </component>
@@ -120,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CollectPages">
+  <component name="RunManager" selected="Python.Scraper">
     <configuration name="CollectPages" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,8 +161,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.CollectPages" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Scraper" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Scraper" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CollectPages" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530355275469</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CollectPages finished and working well!">
+      <created>1530356932294</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1530356932294</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -257,7 +264,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1827957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10752688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -281,7 +288,8 @@
     <MESSAGE value="Fixed title load" />
     <MESSAGE value="Fixed try..." />
     <MESSAGE value="Working on 'More' cycle &amp; added one list comprehension to CollectPages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on 'More' cycle &amp; added one list comprehension to CollectPages." />
+    <MESSAGE value="CollectPages finished and working well!" />
+    <option name="LAST_COMMIT_MESSAGE" value="CollectPages finished and working well!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -350,20 +358,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraper.py">
+    <entry file="file://$PROJECT_DIR$/CollectPages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="83" selection-end-column="20" />
+        <state relative-caret-position="493">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollectPages.py">
+    <entry file="file://$PROJECT_DIR$/Scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="149">
+          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

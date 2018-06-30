@@ -12,7 +12,6 @@ from selenium.common.exceptions import NoSuchElementException
 import csv
 
 # Create a driver
-# Open the browser
 driver = webdriver.Chrome()
 
 # manually collected page urls:
@@ -23,47 +22,55 @@ a = [
     'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/sauleja-spa/',
     'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/clinic-beauty-world/',
     'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/royal-spa-residence/',
-    'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/5-senses/',
-    'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-egles-sanatorija/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-malo-clinic-dpc/',
-    'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/saulius-viksraitis-plastic-surgery-center/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-viadenta/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dantu-estetika/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/clinic-of-cosmetic-dentistry-prodentas/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-dental-clinic-denticija/',
-    'http://visit.kaunas.lt/en/medical-tourism/general-practice-and-diagnostics/the-aesthetic-surgery-centre/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-implantology-center-kic/',
-    'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-tulpe/',
-    'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/azuolynas-medical-spa/',
-    'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/beauty-surgery/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/teeth-whitening-salon-smile-lab/',
-    'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/wellness-travels/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-eraimplant/',
-    'http://visit.kaunas.lt/en/medical-tourism/orthopaedy/ab-ortopedijos-technika-orthopaedy/',
-    'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-versme/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-neodenta/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-arinija/',
-    'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/era-esthetic/',
-    'http://visit.kaunas.lt/en/medical-tourism/general-practice-and-diagnostics/the-general-medicine-practice-clinic/',
-    'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/era-esthetic-lazerines-dermatologijos-klinika/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-sidanta/',
-    'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/medvisus/',
-    'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/east-island-spa/',
-    'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/sana-beauty/',
-    'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/gp-clinic/',
-    'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/grozio-akademija/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/international-dental-clinic-pro-implant/'
+    # 'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/5-senses/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-egles-sanatorija/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-malo-clinic-dpc/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/saulius-viksraitis-plastic-surgery-center/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-viadenta/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/dantu-estetika/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/clinic-of-cosmetic-dentistry-prodentas/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-dental-clinic-denticija/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/general-practice-and-diagnostics/the-aesthetic-surgery-centre/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-implantology-center-kic/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-tulpe/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/azuolynas-medical-spa/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/beauty-surgery/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/teeth-whitening-salon-smile-lab/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/wellness-travels/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-eraimplant/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/orthopaedy/ab-ortopedijos-technika-orthopaedy/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-versme/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-neodenta/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-arinija/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/era-esthetic/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/general-practice-and-diagnostics/the-general-medicine-practice-clinic/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/era-esthetic-lazerines-dermatologijos-klinika/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-sidanta/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/medvisus/',
+    # 'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/east-island-spa/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/sana-beauty/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/gp-clinic/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/grozio-akademija/',
+    # 'http://visit.kaunas.lt/en/medical-tourism/dentistry/international-dental-clinic-pro-implant/'
 ]
-
-# empty list for appending new data and writing to csv
-b = []
 
 # Open a new csv file to save(write) the results
 outputFile = open('medicalTourism.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
+# Create column titles and write to csv as the first line
+b = ['Source', 'Title', 'Address', 'Phone', 'Email', 'Website', 'Working Hours']
+outputWriter.writerow(b)
+
+# empty the list for adding new line of data to write to csv
+b = []
+
 # Go through the pages and select the wanted elements
 for link in a:
+    #add the source page to the table
+    b.append(link)
+
+    #open link in the browser
     driver.get(link)
 
     # escape the popup
@@ -110,7 +117,7 @@ for link in a:
     # write the element to the .csv file
     outputWriter.writerow(b)
 
-    # empty the list for the next page
+    # empty the list for the next line of data from the next page
     b = []
 
 # close the .csv file

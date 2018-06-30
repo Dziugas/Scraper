@@ -17,8 +17,8 @@
       <file leaf-file-name="Scraper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1054">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="1938">
+              <caret line="114" column="14" lean-forward="true" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -29,7 +29,7 @@
       <file leaf-file-name="CollectPages.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CollectPages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="238">
               <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530359450101</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implemented the loop with try/except and added the id counter">
+      <created>1530361347763</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1530361347763</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -297,7 +304,8 @@
     <MESSAGE value="Working on 'More' cycle &amp; added one list comprehension to CollectPages." />
     <MESSAGE value="CollectPages finished and working well!" />
     <MESSAGE value="Added column names and source urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added column names and source urls" />
+    <MESSAGE value="Implemented the loop with try/except and added the id counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the loop with try/except and added the id counter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,7 +376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CollectPages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="238">
           <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -378,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1054">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="1938">
+          <caret line="114" column="14" lean-forward="true" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

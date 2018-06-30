@@ -17,7 +17,7 @@ driver = webdriver.Chrome()
 # manually collected page urls:
 # some don't work, maybe because not all elements are available
 
-a = [
+links = [
     'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-angitia/',
     'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/sauleja-spa/',
     'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/clinic-beauty-world/',
@@ -59,10 +59,11 @@ outputFile = open('medicalTourism_xpath.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
 # Create a list with column titles and write it to csv as the first line
-b = ['ID', 'Source', 'Title', 'Address', 'Phone', 'Email', 'Website', 'Working Hours']
-outputWriter.writerow(b)
-# empty the list for adding new line of data to write to csv
-b = []
+column_names = ['ID', 'Source', 'Title', 'Address', 'Phone', 'Email', 'Website', 'Working Hours']
+outputWriter.writerow(column_names)
+
+# empty list for adding new line of data to write to csv
+empty_list = []
 
 # xpaths for the wanted elements
 title_xpath ='//*[@id="body"]/div[2]/div[1]/div[3]/div/h1'
@@ -73,16 +74,16 @@ website_xpath = '//*[@id="body"]/div[2]/div[1]/div[3]/div/span[4]/a'
 working_hours_xpath = '//*[@id="body"]/div[2]/div[1]/div[3]/div/span[5]'
 
 #list with all the xpaths
-c = [title_xpath, address_xpath, phone_xpath, email_xpath, website_xpath, working_hours_xpath]
+xpaths = [title_xpath, address_xpath, phone_xpath, email_xpath, website_xpath, working_hours_xpath]
 
 # variable to generate IDs
 id = 1
 
 # Go through the pages and select the wanted elements
-for link in a:
+for link in links:
     #add the source page to the table
-    b.append(id)
-    b.append(link)
+    empty_list.append(id)
+    empty_list.append(link)
 
     #open link in the browser
     driver.get(link)
@@ -91,18 +92,18 @@ for link in a:
     ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
     # find elements and append to the empty list b, or enter empty values if elements not found
-    for object in c:
+    for object in xpaths:
         try:
             element = driver.find_element_by_xpath(object).text
-            b.append(element)
+            empty_list.append(element)
         except NoSuchElementException:
-            b.append('')
+            empty_list.append('')
 
     # write the element to the output .csv file
-    outputWriter.writerow(b)
+    outputWriter.writerow(empty_list)
 
     # empty the list for the next line of data from the next page
-    b = []
+    empty_list = []
 
     # increase the id by one
     id+=1

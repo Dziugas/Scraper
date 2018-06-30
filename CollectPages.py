@@ -16,35 +16,36 @@ import time
 # Create a driver
 driver = webdriver.Chrome()
 # Open chrome
-driver.get('http://visit.kaunas.lt/en/medical-tourism/dentistry/')
+driver.get('http://visit.kaunas.lt/en/eat-and-drink/')
 # escape the popup
 ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 # extend the page with the 'more' button by running JS code
 
-#execute JS script to find and activate the "More" button for more results
+time.sleep(3)
+button = driver.find_element_by_class_name('button-white')
+button.click()
 
-time.sleep(2)
+# while True:
+#     time.sleep(3)
+#     button = driver.find_element_by_class_name('button-white')
+#     if button.is_displayed():
+#         button.click()
+#         # driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
+#     else:
+#         break
 
-#fails on is_displayed()
-button_element = driver.find_element_by_class_name('button-white')
-if button_element.is_displayed():
-    driver.execute_script("document.getElementsByClassName('button-white')[0].click()")
-else:
-    pass
-
-
+#give 3 secs for the browser to load more elements
 time.sleep(3)
 
-# find all links to the places
+# find all elements (titles)
 titles = driver.find_elements_by_class_name('product-title')
 
+# extract links from the elements (links from titles)
 def write_links():
-    links = []
-    for title in titles:
-        link = title.get_attribute('href')
-        links.append(link)
+    links = [title.get_attribute('href') for title in titles]
     return links
 
+#print how many results did we collect
 print(len(write_links()))
 
 # def print_links():

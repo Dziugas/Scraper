@@ -1,61 +1,53 @@
 from selenium import webdriver
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 from selenium.common.exceptions import NoSuchElementException
 
 import csv
+import time
 
-# Create a driver
+#fix the starting time of running the script
+start_time = time.clock()
+
+# Create a driver and open a link in Chrome
 driver = webdriver.Chrome()
+driver.get('http://visit.kaunas.lt/en/eat-and-drink/')
 
-# manually collected page urls:
-# some don't work, maybe because not all elements are available
+# escape the popup
+ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
-links = [
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-angitia/',
-    'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/sauleja-spa/',
-    'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/clinic-beauty-world/',
-    'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/royal-spa-residence/',
-    'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/5-senses/',
-    'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-egles-sanatorija/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-malo-clinic-dpc/',
-    'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/saulius-viksraitis-plastic-surgery-center/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-viadenta/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dantu-estetika/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/clinic-of-cosmetic-dentistry-prodentas/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-dental-clinic-denticija/',
-    'http://visit.kaunas.lt/en/medical-tourism/general-practice-and-diagnostics/the-aesthetic-surgery-centre/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-implantology-center-kic/',
-    'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-tulpe/',
-    'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/azuolynas-medical-spa/',
-    'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/beauty-surgery/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/teeth-whitening-salon-smile-lab/',
-    'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/wellness-travels/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-eraimplant/',
-    'http://visit.kaunas.lt/en/medical-tourism/orthopaedy/ab-ortopedijos-technika-orthopaedy/',
-    'http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-versme/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-neodenta/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-arinija/',
-    'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/era-esthetic/',
-    'http://visit.kaunas.lt/en/medical-tourism/general-practice-and-diagnostics/the-general-medicine-practice-clinic/',
-    'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/era-esthetic-lazerines-dermatologijos-klinika/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-sidanta/',
-    'http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/medvisus/',
-    'http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/east-island-spa/',
-    'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/sana-beauty/',
-    'http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/gp-clinic/',
-    'http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/grozio-akademija/',
-    'http://visit.kaunas.lt/en/medical-tourism/dentistry/international-dental-clinic-pro-implant/'
-]
+# a function that keeps clicking the 'More' button until all results are displayed
+def extend_page():
+    while True:
+        time.sleep(3)
+        try:
+            button = driver.find_element_by_class_name('button-white')
+            button.click()
+        except NoSuchElementException:
+            break
+
+# a function that finds all the elements (titles) and extract links from them
+def links():
+    titles = driver.find_elements_by_class_name('product-title')
+    links = [title.get_attribute('href') for title in titles]
+    return links
+
+#run the function that extends the page
+extend_page()
+
+#give 3 secs for the browser to load all elements
+time.sleep(3)
+
+#run the function that collects the links and assign the result to the list variable 'titles'
+title_links = links()
+
+#print how many results we got
+print(len(links()))
 
 # Open a new csv file to save(write) the results
-outputFile = open('medicalTourism_xpath.csv', 'w', newline='', encoding='utf-8')
+outputFile = open('medicalTourism.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
 # Create a list with column titles and write it to csv as the first line
@@ -80,7 +72,7 @@ xpaths = [title_xpath, address_xpath, phone_xpath, email_xpath, website_xpath, w
 id = 1
 
 # Go through the pages and select the wanted elements
-for link in links:
+for link in title_links:
     #add the source page to the table
     empty_list.append(id)
     empty_list.append(link)
@@ -89,7 +81,7 @@ for link in links:
     driver.get(link)
 
     # escape the popup
-    ActionChains(driver).send_keys(Keys.ESCAPE).perform()
+    # ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
     # find elements and append to the empty list b, or enter empty values if elements not found
     for object in xpaths:
@@ -113,3 +105,9 @@ outputFile.close()
 
 # close driver/browser
 driver.close()
+
+#fix the end time of running the script
+end_time = time.clock()
+
+#print the time it took to run the code
+print(end_time-start_time)

@@ -12,7 +12,7 @@ import bs4
 import requests
 
 # Open a new csv file to save(write) the results to
-outputFile = open('to-do.csv', 'w', newline='', encoding='utf-8')
+outputFile = open('to-see.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
 # Create a list with column titles and write it to the csv as the first line
@@ -61,9 +61,18 @@ def links_and_categories():
 # a variable to generate IDs
 id = 1
 
-# Create a driver, open the link in Chrome and escape the popup
+# Create a driver, open the link in Chrome - automatically set to scrape the English content
 driver = webdriver.Chrome()
-driver.get('http://visit.kaunas.lt/en/to-do/')
+driver.get('http://visit.kaunas.lt/en/to-see/')
+
+#to scrape in German
+# driver.get('http://visit.kaunas.lt/de/sehen/')
+#to scrape in Lithuanian
+# driver.get('http://visit.kaunas.lt/lt/ka-pamatyti/')
+#to scrape in Russian
+# driver.get('http://visit.kaunas.lt/ru/page-9/')
+
+#Escape the popup
 ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
 # run the function that extends the page and

@@ -66,7 +66,7 @@ ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 # run the function that extends the page and
 # give 3 secs for the browser to load all elements
 extend_page()
-time.sleep(3)
+time.sleep(4)
 
 # get a variable for the dictionary of links and categories
 dictionary = links_and_categories()

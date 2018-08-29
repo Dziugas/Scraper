@@ -8,30 +8,34 @@ from selenium.common.exceptions import NoSuchElementException
 import csv
 import time
 
-#fix the starting time of running the script
-start_time = time.clock()
+import bs4
+import requests
 
 # Open a new csv file to save(write) the results to
-outputFile = open('medical-tourism.csv', 'w', newline='', encoding='utf-8')
+outputFile = open('to-do.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
 # Create a list with column titles and write it to the csv as the first line
-column_names = ['ID', 'Source', 'Title', 'Address', 'Phone', 'Email', 'Website', 'Working Hours', 'Category']
+column_names = ['ID', 'Source', 'Title', 'Address', 'Phone', 'Email', 'Website', 'Working Hours', 'Date', 'Price', 'Description', 'Category']
 outputWriter.writerow(column_names)
 
 # empty list for adding a new line of data to write to csv
 empty_list = []
 
-# xpaths for the wanted elements
-title_xpath ='//*[@id="body"]/div[2]/div[1]/div[3]/div/h1'
-address_xpath = '//*[@id="body"]/div[2]/div[1]/div[3]/div/span[1]'
-phone_xpath = '//*[@id="body"]/div[2]/div[1]/div[3]/div/span[2]/a'
-email_xpath ='//*[@id="body"]/div[2]/div[1]/div[3]/div/span[3]/a'
-website_xpath = '//*[@id="body"]/div[2]/div[1]/div[3]/div/span[4]/a'
-working_hours_xpath = '//*[@id="body"]/div[2]/div[1]/div[3]/div/span[5]'
+# css selectors for the wanted elements
+title_selector = '.info-container h1'
+address_selector = '.ticekt-place'
+phone_selector = '.ticekt-phone'
+email_selector = '.ticekt-mail'
+website_selector = '.ticekt-link'
+working_hours_selector = '.ticekt-calendar'
+date_selector = '.ticekt-calendar'
+price_selector = '.ticekt-price'
+description_selector = '.product-wrapper'
 
-#list with all the xpaths
-xpaths = [title_xpath, address_xpath, phone_xpath, email_xpath, website_xpath, working_hours_xpath]
+
+#list with all the css selectors
+css_selectors = [title_selector, address_selector, phone_selector, email_selector, website_selector, working_hours_selector, date_selector, price_selector, description_selector]
 
 
 # a function that keeps clicking the 'More' button until all results are displayed
@@ -59,7 +63,7 @@ id = 1
 
 # Create a driver, open the link in Chrome and escape the popup
 driver = webdriver.Chrome()
-driver.get('http://visit.kaunas.lt/en/medical-tourism/')
+driver.get('http://visit.kaunas.lt/en/to-do/')
 ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
 # run the function that extends the page and
@@ -76,15 +80,16 @@ for link, category in dictionary.items():
     empty_list.append(id)
     empty_list.append(link)
 
-    # go to each link
-    # find elements and append to the empty list, or enter empty values if elements not found
-    driver.get(link)
-    for object in xpaths:
-        try:
-            element = driver.find_element_by_xpath(object).text
-            empty_list.append(element)
-        except NoSuchElementException:
-            empty_list.append('')
+    # for each link get the dom using Beautiful Soup
+    # select elements and append to the empty list, or enter empty values if elements are not found
+    agent = {
+        "User-Agent": 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
+    res = requests.get(link, headers=agent)
+    dom = bs4.BeautifulSoup(res.text, "html.parser")
+    for object in css_selectors:
+        elements_raw = dom.select(object)
+        elements = [element.getText() for element in elements_raw]
+        empty_list.append(elements)
 
     #add the category to the list from the dictionary
     empty_list.append(category)
@@ -103,8 +108,5 @@ outputFile.close()
 # close driver/browser
 driver.close()
 
-#fix the end time of running the script
-end_time = time.clock()
-
 #print the time it took to run the code
-print(end_time-start_time)
+print(time.perf_counter())

@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-from selenium.common.exceptions import NoSuchElementException, ElementNotVisibleException
+from selenium.common.exceptions import NoSuchElementException
 
 import csv
 import time
@@ -12,11 +12,11 @@ import time
 start_time = time.clock()
 
 # Open a new csv file to save(write) the results to
-outputFile = open('eat-drink.csv', 'w', newline='', encoding='utf-8')
+outputFile = open('MedicalTourism.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
 # Create a list with column titles and write it to the csv as the first line
-column_names = ['ID', 'Source', 'Title', 'Address', 'Phone', 'Email', 'Website', 'Working Hours', 'Description', 'Category']
+column_names = ['ID', 'Source', 'Title', 'Address', 'Phone', 'Email', 'Website', 'Working Hours', 'Category']
 outputWriter.writerow(column_names)
 
 # empty list for adding a new line of data to write to csv
@@ -29,10 +29,9 @@ phone_xpath = '//*[@id="body"]/div[2]/div[1]/div[3]/div/span[2]/a'
 email_xpath ='//*[@id="body"]/div[2]/div[1]/div[3]/div/span[3]/a'
 website_xpath = '//*[@id="body"]/div[2]/div[1]/div[3]/div/span[4]/a'
 working_hours_xpath = '//*[@id="body"]/div[2]/div[1]/div[3]/div/span[5]'
-description_xpath = '//*[@id="body"]/div[2]/div[2]/div'
 
 #list with all the xpaths
-xpaths = [title_xpath, address_xpath, phone_xpath, email_xpath, website_xpath, working_hours_xpath, description_xpath]
+xpaths = [title_xpath, address_xpath, phone_xpath, email_xpath, website_xpath, working_hours_xpath]
 
 
 # a function that keeps clicking the 'More' button until all results are displayed
@@ -60,7 +59,7 @@ id = 1
 
 # Create a driver, open the link in Chrome and escape the popup
 driver = webdriver.Chrome()
-driver.get('http://visit.kaunas.lt/en/eat-and-drink/')
+driver.get('http://visit.kaunas.lt/en/medical-tourism/')
 ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
 # run the function that extends the page and
@@ -80,8 +79,6 @@ for link, category in dictionary.items():
     # go to each link
     # find elements and append to the empty list, or enter empty values if elements not found
     driver.get(link)
-    time.sleep(3)
-
     for object in xpaths:
         try:
             element = driver.find_element_by_xpath(object).text

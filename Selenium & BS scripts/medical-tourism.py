@@ -12,7 +12,7 @@ import bs4
 import requests
 
 # Open a new csv file to save(write) the results to
-outputFile = open('medical-tourismBS.csv', 'w', newline='', encoding='utf-8')
+outputFile = open('MedicalTourism.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
 # Create a list with column titles and write it to the csv as the first line
@@ -22,7 +22,7 @@ outputWriter.writerow(column_names)
 # empty list for adding a new line of data to write to csv
 empty_list = []
 
-# xpaths for the wanted elements
+# css selectors for the wanted elements
 title_selector = '.info-container h1'
 address_selector = '.ticekt-place'
 phone_selector = '.ticekt-phone'
@@ -30,7 +30,7 @@ email_selector = '.ticekt-mail'
 website_selector = '.ticekt-link'
 working_hours_selector = '.ticekt-calendar'
 
-#list with all the xpaths
+#list with all the css selectors
 css_selectors = [title_selector, address_selector, phone_selector, email_selector, website_selector, working_hours_selector]
 
 

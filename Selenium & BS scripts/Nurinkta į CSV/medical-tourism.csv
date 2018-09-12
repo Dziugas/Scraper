@@ -1,0 +1,41 @@
+ID,Source,Title,Address,Phone,Email,Website,Working Hours,Category
+1,http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/royal-spa-residence/,Royal SPA Residence,"Pakalnės g. 3,  LT-59201,  Birštonas",+370 319 62030 , info@royal-spa.lt,www.royal-spa.lt ,I - VII 9:00 a.m. - 10:00 p.m.,SPA AND REHABILITATION
+2,http://visit.kaunas.lt/en/medical-tourism/dentistry/clinic-of-cosmetic-dentistry-prodentas/,CLINIC OF COSMETIC DENTISTRY “PRODENTAS”,"Jotvingių g. 13, Kaunas ",+370 682 62 762,pastas@prodentas.lt,www.prodentas.lt,I - V 09:00 - 19:00,DENTISTRY
+3,http://visit.kaunas.lt/en/medical-tourism/dentistry/teeth-whitening-salon-smile-lab/,TEETH WHITENING SALON SMILE LAB,"K. Donelaičio g. 27, Kaunas",+370 657 70 444,smilelab@neodenta.lt,www.smilelab.lt,,DENTISTRY
+4,http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-malo-clinic-dpc/,DENTAL CLINIC MALO CLINIC | DPC,"Savanorių pr. 271, Kaunas",+370 632 00 005,konsultacija@maloclinic.lt,www.maloclinic.lt,"I - V 08:00 - 20:00
+VI 09:00 - 17:00",DENTISTRY
+5,http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-implantology-center-kic/,"KAUNAS IMPLANTOLOGY CENTER ""KIC""","Kalniečių g. 247, Kaunas",+370 640 52 485 ,info@kicklinika.lt,http://www.kicklinika.lt/,I - V 08:00 - 20:00,DENTISTRY
+6,http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-viadenta/,"DENTAL CLINIC ""VIADENTA""","K. Donelaičio g. 67-1, Kaunas",+370 37 203 696,info@viadenta.lt,www.viadenta.lt,I - V 08:00 - 18:00 ,DENTISTRY
+7,http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-arinija/,DENTAL CLINIC „ARINIJA“,"K. Baršausko 65-1, Kaunas",+370 674 49 866,info@arinija.lt,www.arinija.lt,"I - V 08:00 - 20:00
+VI 09:00 - 13:00",DENTISTRY
+8,http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/grozio-akademija/,GROŽIO AKADEMIJA,"K. Donelaičio g. 62, BLC verslo centras, Kaunas",+370 604 10003,kaunas@medispa.lt,http://www.grozioakademija.lt/lt,,AESTHETIC MEDICINE
+9,http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-versme/,"MEDICAL SPA ,,VERSMĖ""","B. Sruogos g. 9, Birštonas",+370 319 65 673,versme@is.lt,www.versme.com,,SPA AND REHABILITATION
+10,http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/saulius-viksraitis-plastic-surgery-center/,SAULIUS VIKSRAITIS PLASTIC SURGERY CENTER,"Savanorių pr. 75, Kaunas", +370 655 60 629,info@viksraitis.com,www.viksraitis.com,I - V 09:00 - 18:00,PLASTIC SURGERY
+11,http://visit.kaunas.lt/en/medical-tourism/orthopaedy/ab-ortopedijos-technika-orthopaedy/,AB „ORTOPEDIJOS TECHNIKA“ ,"Savanorių pr. 284, Kaunas",+370 37 313 303 ,info@ortopedija.lt,www.ortopedija.lt,,ORTHOPAEDY
+12,http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-sidanta/,"DENTAL CLINIC ""SIDANTA""","Baltų pr. 3, Kaunas",+370 616 07 775,info@sidanta.lt,www.sidanta.lt,I - V 08:00 - 19:00,DENTISTRY
+13,http://visit.kaunas.lt/en/medical-tourism/dentistry/kaunas-dental-clinic-denticija/,KAUNAS DENTAL CLINIC „DENTICIJA“,"Vytauto pr. 14, Kaunas",+370 671 96 979,registracija@kaunodenticija.lt,kaunodenticija.lt,,DENTISTRY
+14,http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/gp-clinic/,GP CLINIC,"L. Zamenhofo g. 7, Kaunas",+370 656 82 505,info@estetik.lt,www.estetik.lt,I - V 09:00 - 18:00,PLASTIC SURGERY
+15,http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-egles-sanatorija/,"MEDICAL SPA ""EGLĖS SANATORIJA""","Algirdo gatvė 14‎, Birštonas",+370 31 942 142,birstonas@sanatorija.lt,www.birstonas.sanatorija.lt,Reservation -  I-V  08.00-17.00,SPA AND REHABILITATION
+16,http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/clinic-beauty-world/,"CLINIC ""BEAUTY WORLD""","Savanorių pr. 421, Kaunas", +370 37 313 900,info@groziopasaulis.lt,www.groziopasaulis.lt,,PLASTIC SURGERY
+17,http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/sana-beauty/,Sana Beauty,"Laisvės al. 45, Kaunas",+370 686 83700,info@sanabeauty.lt,http://www.sanabeauty.lt/,,AESTHETIC MEDICINE
+18,http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-neodenta/,DENTAL CLINIC NEODENTA,"Baltų pr. 49A, Kaunas",+370 37 755 075,info@neodenta.lt,www.neodenta.lt,I-V 08:00 – 20:00,DENTISTRY
+19,http://visit.kaunas.lt/en/medical-tourism/dentistry/dantu-estetika/,Dantų estetika,"Aukštaičių g. 62A, Kaunas",+370 600 25559,info@dantuestetika.lt,http://dantuestetika.lt/,,DENTISTRY
+20,http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/beauty-surgery/,BEAUTY SURGERY,"Savanorių pr. 284/ Partizanų g.17, Kaunas",+370 650 93 333,info@groziochirurgija.lt,www.groziochirurgija.lt,I - V 09:00 - 18:00,PLASTIC SURGERY
+21,http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/medvisus/,Medvisus,Kaunas,+44 2035195102,info@medvisus.com,https://www.medvisus.com/,,MEDICAL TOURISM FACILITATOR
+22,http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-eraimplant/,DENTAL CLINIC ERAIMPLANT,"Savanorių pr. 300-1, Kaunas",+370 633 58 133,info@eraimplant.lt,www.eraimplant.lt,,DENTISTRY
+23,http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/medical-spa-tulpe/,"MEDICAL SPA ""TULPĖ""","B. Sruogos g. 4, Birštonas",+370 319 65 525,santulpe@mail.lt,www.tulpe.lt,,SPA AND REHABILITATION
+24,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/sauleja-spa/,Saulėja SPA ,"K. Donelaičio g. 27, Kaunas",+370 685 02 902,,http://sauleja.lt/,I-VII 09:00 - 21:00 ,SPA AND WELLNESS CENTERS
+25,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/5-senses/,5 Senses,"Miško g. 13, Kaunas",+370 620 33707,info@5senses.lt,http://5senses.lt/#top,,SPA AND WELLNESS CENTERS
+26,http://visit.kaunas.lt/en/medical-tourism/dentistry/dental-clinic-angitia/,"DENTAL CLINIC ""ANGITIA""","Savanorių pr. 273, Kaunas",+370 699 05758,info@angitia.lt,https://angitia.lt/,,DENTISTRY
+27,http://visit.kaunas.lt/en/medical-tourism/medical-tourism-facilitator/wellness-travels/,Wellness Travels,"Studentų g. 26, Kaunas",+370 658 81 507,info@wellness-travels.com,http://wellness-travels.com/,,MEDICAL TOURISM FACILITATOR
+28,http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/azuolynas-medical-spa/,ĄŽUOLYNAS MEDICAL SPA,"Sporto g. 3, Kaunas",+370 640 45 761,info@azuolynospa.lt,www.azuolynospa.lt,"I - V - 09:00 - 21:00
+VI - 09:00 - 16:00",SPA AND REHABILITATION
+29,http://visit.kaunas.lt/en/medical-tourism/dentistry/international-dental-clinic-pro-implant/,INTERNATIONAL DENTAL CLINIC “PRO-IMPLANT“ ,"K. Donelaičio g. 14-1, Kaunas",+370 634 09 687,info@odontologas.lt,http://odontologas.lt/en,I - V 09:00 - 17:00,DENTISTRY
+30,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/east-island-spa/,East Island SPA ,"Karaliaus Mindaugo pr. 49, Kaunas (AKROPOLIS) ",+370 700 77 776,kaunas@eastisland.lt,https://www.eastisland.lt/kaunas-spa-centras/,I - VII 10:00 - 21:00,SPA AND WELLNESS CENTERS
+31,http://visit.kaunas.lt/en/medical-tourism/general-practice-and-diagnostics/the-aesthetic-surgery-centre/,The Aesthetic Surgery Centre,"Savanorių pr. 284, Kaunas",+370 657 47 420,info@plastinechirurgija.lt,www.plastinechirurgija.lt,I - V - 08:00 - 17:00,GENERAL PRACTICE AND DIAGNOSTICS
+32,http://visit.kaunas.lt/en/medical-tourism/general-practice-and-diagnostics/the-general-medicine-practice-clinic/,THE GENERAL MEDICINE PRACTICE CLINIC,"Savanorių pr. 423/421, Kaunas",+370 37 270 010,administracija@daktaras.lt,www.daktaras.lt,"I-V - 08:00 -19:00
+VI - 09:00-14:00",GENERAL PRACTICE AND DIAGNOSTICS
+33,http://visit.kaunas.lt/en/medical-tourism/aesthetic-medicine/era-esthetic-lazerines-dermatologijos-klinika/,ERA ESTHETIC laser dermatology clinic,"P. Lukšio 3,  Kaunas",+370 611 66 111,info@lazerineklinika.lt,http://www.lazerineklinika.lt,"I - V 8.00 a.m. - 8.00 p.m.
+VI 9.00 a.m. - 5.00 p.m.
+",AESTHETIC MEDICINE
+34,http://visit.kaunas.lt/en/medical-tourism/plastic-surgery/era-esthetic/,ERA ESTHETIC,I. Kanto g.18 – 2,+370 611 66 111,info@lazerineklinika.lt,https://www.lazerineklinika.lt/en/,,PLASTIC SURGERY

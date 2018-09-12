@@ -12,11 +12,11 @@ import bs4
 import requests
 
 # Open a new csv file to save(write) the results to
-outputFile = open('to-see.csv', 'w', newline='', encoding='utf-8')
+outputFile = open('tours.csv', 'w', newline='', encoding='utf-8')
 outputWriter = csv.writer(outputFile)
 
 # Create a list with column titles and write it to the csv as the first line
-column_names = ['ID', 'Source', 'Title', 'Address', 'Phone', 'Email', 'Website', 'Working Hours', 'Date', 'Price', 'Category']
+column_names = ['ID', 'Source', 'Title', 'Address', 'Phone', 'Email', 'Website', 'Working Hours', 'Description', 'Category']
 outputWriter.writerow(column_names)
 
 # empty list for adding a new line of data to write to csv
@@ -29,19 +29,16 @@ phone_selector = '.ticekt-phone'
 email_selector = '.ticekt-mail'
 website_selector = '.ticekt-link'
 working_hours_selector = '.ticekt-calendar'
-date_selector = '.ticekt-calendar'
-price_selector = '.ticekt-price'
-# description_selector = '.product-wrapper div p span' - selector does not work
-
+description_selector = '.product-wrapper div p span'
 
 #list with all the css selectors
-css_selectors = [title_selector, address_selector, phone_selector, email_selector, website_selector, working_hours_selector, date_selector, price_selector]
+css_selectors = [title_selector, address_selector, phone_selector, email_selector, website_selector, working_hours_selector, description_selector]
 
 
 # a function that keeps clicking the 'More' button until all results are displayed
 def extend_page():
     while True:
-        time.sleep(4)
+        time.sleep(3)
         try:
             button = driver.find_element_by_class_name('button-white')
             button.click()
@@ -61,18 +58,9 @@ def links_and_categories():
 # a variable to generate IDs
 id = 1
 
-# Create a driver, open the link in Chrome - automatically set to scrape the English content
+# Create a driver, open the link in Chrome and escape the popup
 driver = webdriver.Chrome()
-driver.get('http://visit.kaunas.lt/en/to-see/')
-
-#to scrape in German
-# driver.get('http://visit.kaunas.lt/de/sehen/')
-#to scrape in Lithuanian
-# driver.get('http://visit.kaunas.lt/lt/ka-pamatyti/')
-#to scrape in Russian
-# driver.get('http://visit.kaunas.lt/ru/page-9/')
-
-#Escape the popup
+driver.get('http://visit.kaunas.lt/en/to-do/tours/')
 ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
 # run the function that extends the page and
@@ -102,8 +90,7 @@ for link, category in dictionary.items():
             empty_list.append(elements[0])
         else:
             empty_list.append('')
-
-    #add the category to the list from the dictionary
+    # add the category to the list from the dictionary
     empty_list.append(category)
 
     # write the row with appended element values (empty_list) to the output .csv file

@@ -1,0 +1,527 @@
+ID,Source,Title,Address,Phone,Email,Website,Working Hours,Date,Price,Description,Category
+1,http://visit.kaunas.lt/en/to-do/culture-cinema/cultural-venue/zalgirio-arena/,Kaunas Žalgirio arena,"Karaliaus Mindaugo pr. 50, Kaunas",+370 615 98636,info@zalgirioarena.lt,www.zalgirioarena.lt,,,,,CULTURAL VENUE
+2,http://visit.kaunas.lt/en/to-do/for-children/active/curiocity/,CURIOCITY,"Islandijos pl. 32, Kaunas, PLC MEGA",+370 688 33 202,smalsu@curiocity.lt,www.curiocity.lt,I - VII 10:00 a.m. - 9:00 p.m.,I - VII 10:00 a.m. - 9:00 p.m.,,,ACTIVE
+3,http://visit.kaunas.lt/en/to-do/health-and-leisure/beauty-salon/madlein/,Madlein,"Karaliaus Mindaugo pr. 68, Kaunas",+370 626 33366,info@madlein.lt,https://www.facebook.com/MADLEIN-gro%C5%BEio-namai-243545629396327/,,,,,BEAUTY SALON
+4,http://visit.kaunas.lt/en/to-do/health-and-leisure/barbers/old-town-barbers/,Old Town Barbers,"T. Daugirdo g. 4, Kaunas",+370 684 61003, barberskaunas@gmail.com,https://www.facebook.com/BarbersKaunas/,,,,Senamiestyje įkurtame barberyje apsilankę klientai ras visas būtiniausias grožio procedūras: nuo barzdų formavimo iki plaukų kirpimo ir vyriško manikiūro.,BARBERS
+5,http://visit.kaunas.lt/en/to-do/active-leisure/in-the-sky/kaunas-aero-club/,Kaunas Aero Club,"Veiverių g. 132, Kaunas",+370 600 14 325,info@aerokaunas.lt,http://www.aerokaunas.lt,,,,   ,IN THE SKY
+6,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/sauleja-spa/,Saulėja SPA ,"K. Donelaičio g. 27, Kaunas",+370 685 02 902,,http://sauleja.lt/,I-VII 09:00 - 21:00 ,I-VII 09:00 - 21:00 ,,,SPA AND WELLNESS CENTERS
+7,http://visit.kaunas.lt/en/to-see/museums-and-galleries/gallery/yard-gallery/,Yard gallery,"E. Ožeškienės g. 21A (backyard), Kaunas",,,,,,,,GALLERY
+8,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/kaunas-city-museum-folk-music-branch/,Kaunas city museum – Folk music branch ,"L. Zamenhofo g. 12/Kurpių g. 12, Kaunas",+370 37 422 295,,www.kaunomuziejus.lt,"II – V 10 AM – 6 PM, VI 10 AM – 5 PM","II – V 10 AM – 6 PM, VI 10 AM – 5 PM","Adults - 2,00 EUR, children, students, seniors - 1,20 EUR",,MUSEUM
+9,http://visit.kaunas.lt/en/to-do/shopping/bookstores/central-bookstore/,Central bookstore,"Laisvės al. 81, Kaunas",+370 37 229 572,pegasas.kaunas@pegasas.lt,https://www.pegasas.lt/,,,,,BOOKSTORES
+10,http://visit.kaunas.lt/en/to-do/health-and-leisure/barbers/red-light-barbers-kaunas/,Red Light Barbers Kaunas,"Daukšos g. 5, Kaunas",+370 625 08029,info@redlightbarbers.com,https://www.facebook.com/redlightbarberskaunas/,,,,,BARBERS
+11,http://visit.kaunas.lt/en/to-do/for-children/playing-rooms/childrens-entertainment-club-mauglis-ir-vaikai/,"Children's entertainment club ""Mauglis ir vaikai""","Pramonės pr. 29, Kaunas",+370 657 85 537,info@mauglis.net,www.mauglis.net ,I - VII  10:00 - 21:00,I - VII  10:00 - 21:00,,,PLAYING ROOMS
+12,http://visit.kaunas.lt/en/to-do/shopping/flowers/tarp-geliu/,Tarp Gėlių,"Savanorių pr. 319a, Kaunas",+370 37 312 233,biuras@tarpgeliu.lt,http://www.tarpgeliu.lt/en/,24 / 7,24 / 7,,,FLOWERS
+13,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/the-spirit-of-kaunas-catacombs/,THE SPIRIT OF KAUNAS CATACOMBS,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+14,http://visit.kaunas.lt/en/to-do/active-leisure/horse-riding/kauno-zirgai/,"""Kauno žirgai""","Marvelės g. 199, Kaunas",+370 616 41 177,agnesulc@gmail.com,www.kaunozirgai.lt,,,,,HORSE RIDING
+15,http://visit.kaunas.lt/en/to-do/active-leisure/bowling-billiards/oaze/,OAZĖ,"Baltų pr. 16, Kaunas ",+370 600 44 456,info@oazesboulingas.lt,www.oazesboulingas.lt ,"I-IV	12:00 - 23:00
+V  12:00 - 24:00
+VI 12:00 - 24:00
+VII 12:00 - 22:00","I-IV	12:00 - 23:00
+V  12:00 - 24:00
+VI 12:00 - 24:00
+VII 12:00 - 22:00",,,"BOWLING, BILLIARDS"
+16,http://visit.kaunas.lt/en/to-do/culture-cinema/theater/kaunas-state-musical-theatre/,Kaunas State Musical Theatre,"Laisvės al. 91, Kaunas",+370 37 200 933,ofisas@muzikinisteatras.lt ,www.muzikinisteatras.lt ,,,,,THEATER
+17,http://visit.kaunas.lt/en/to-do/traditional-events/february/restoration-of-the-state-day-february-16th/,Restoration of the State Day (February 16th),,+370 37 209 143,kulturos.skyrius@kaunas.lt,www.kaunas.lt,February 16th,February 16th,,"Always celebrated in Kaunas on 16 February, this holiday marks the act of independence in 1918. This holiday is Lithuania's National Day.",FEBRUARY
+18,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/basement-cocktail-bar-by-barbara/,Basement cocktail bar by BarBar'a ,Vilniaus g. 56 ,+370 612 22 522 ,info@barbaragrupe.lt,www.facebook.com/BASEMENTbyBarBara,"II - VI 23:00 - 05:00
+","II - VI 23:00 - 05:00
+",,,NIGHT CLUBS
+19,http://visit.kaunas.lt/en/to-do/active-leisure/bowling-billiards/entry/,Entry,"Kęstučio g. 71, Kaunas",+370 37 225 430,info@entry.lt,www.entry.lt,"I - IV 12:00 - 00:00
+V - VI 12:00 - 02:00
+VII 12:00 - 00:00","I - IV 12:00 - 00:00
+V - VI 12:00 - 02:00
+VII 12:00 - 00:00",,,"BOWLING, BILLIARDS"
+20,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/jogos-akademija/,YOGA ACADEMY ,"Savanorių pr. 192, Kaunas",+370 685 18 997,jogosakademija@gmail.com,www.jogosakademija.lt,,,,,SPORT CLUBS
+21,http://visit.kaunas.lt/en/to-do/traditional-events/april/kaunas-jazz-festival/,KAUNAS JAZZ FESTIVAL (APRIL),,+370 37 750 146,festival@kaunasjazz.lt,http://www.kaunasjazz.lt/lt/,April,April,,,APRIL
+22,http://visit.kaunas.lt/en/to-do/shopping/boutique/in-boutique/,IN BOUTIQUE,"M. Valančiaus g.  10-2, Kaunas",+370 655 34 188,info@inboutique.lt,www.inboutique.lt,"I - V 10:00-18:00
+VI 11:00-16:00
+","I - V 10:00-18:00
+VI 11:00-16:00
+",,"„IN boutique“ accessories collection is for a woman, who knows what she wants: style and quality, ",BOUTIQUE
+23,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/fitnie-academy/,FITNIE ACADEMY,"Sporto g. 3, Kaunas",+370 640 52 185,info@fitnie.lt,www.fitnie.lt,"I-V 07:00 - 22:00
+VI - VII 9:00 - 18:00 
+","I-V 07:00 - 22:00
+VI - VII 9:00 - 18:00 
+",,"Fitnie Academy by Galinta is a sport club in Kaunas with unique location and professional trainers. Their goal is to provide the best quality services, emotions and long-term relationship with the customers and contribute to healthier life by sharing the knowledge with everyone in the sport club.  ",SPORT CLUBS
+24,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/kaunas-city-museum-kaunas-town-hall/,Kaunas City museum - Kaunas Town hall ,"Rotušės a. 15, Kaunas",+370 37 208 220,muziejus@kaunomuziejus.lt,www.kaunomuziejus.lt,"II – VI 10 AM – 6 PM, VII 10 AM – 4 PM","II – VI 10 AM – 6 PM, VII 10 AM – 4 PM"," Adults - 2,50 EUR, schoolchildren, students, seniors - 1,20 EUR, Kaunas town hall tower: adults - 2,00 EUR, schoolchildren, students, seniors - 1,00 EUR.",,MUSEUM
+25,http://visit.kaunas.lt/en/to-do/shopping/boutique/sapokliak/,Šapokliak,"Laisves al. 89, Kaunas",+370 686 46455,sapokliak.kaunas@gmail.com,http://www.sapokliak.lt/,,,,,BOUTIQUE
+26,http://visit.kaunas.lt/en/to-do/culture-cinema/cultural-venue/kaunas-state-philharmonic/,KAUNAS STATE PHILHARMONIC,"L. Sapiegos g. 5, Kaunas", +370 37 200 478, info@kaunofilharmonija.lt,www.kaunofilharmonija.lt ,,,,,CULTURAL VENUE
+27,http://visit.kaunas.lt/en/to-do/health-and-leisure/beauty-salon/unison-beauty-lab-1/,Unison Beauty Lab 1,"Laisvės al. 9, Kaunas",+370 685 65 194,lab1@unison.lt,http://unison.lt/,,,,,BEAUTY SALON
+28,http://visit.kaunas.lt/en/to-do/shopping/markets/central-market-of-kaunas/,Central Market of Kaunas,"Pramonės pr. 16, Kaunas",+370 37 350 662,info@urmas.net,www.centrinisturgus.lt,"I-V 7:00 - 17:30
+VI  7:00 - 16:00
+VII 7:00 - 15:00","I-V 7:00 - 17:30
+VI  7:00 - 16:00
+VII 7:00 - 15:00",,,MARKETS
+29,http://visit.kaunas.lt/en/to-do/health-and-leisure/beauty-salon/uoga-uoga/,Uoga Uoga,"Vilniaus g. 66, Kaunas",+370 640 70703,uogaruta@gmail.com,https://www.facebook.com/grozionamas/,,,,,BEAUTY SALON
+30,http://visit.kaunas.lt/en/to-do/for-children/museums-for-children/zoopark-mega/,ZOOPARK | MEGA,"Islandijos pl. 32, Kaunas",+370 631 22 224,info@zoopark.lt,http://www.zoopark.lt/,I - VII 10:00 - 21:00,I - VII 10:00 - 21:00,,Zoopark,MUSEUMS FOR CHILDREN
+31,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/uno-park/,"""UNO park""","Gervių g., Kaunas",+370 601 94 545,kaunas@unoparks.lt,http://www.unoparks.lt/home.html?lang=en,,,,,EXTREME
+32,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/rusys-escape-room/,"""RŪSYS"" escape room","Muitinės g. 1, Kaunas / Laisvės al. 51A, Kaunas",+370 656 33 796,pabegimorusys@gmail.com,www.pabegimorusys.lt,,,,,TASK ROOMS
+33,http://visit.kaunas.lt/en/to-do/traditional-events/may/international-sporting-dances-contest-gintarine-pora/,INTERNATIONAL SPORTING DANCES CONTEST „Gintarine pora“ (MAY),,+370 37 320 661,info@tautosnamai.lt,www.tautosnamai.lt,Gegužė,Gegužė,,,MAY
+34,http://visit.kaunas.lt/en/to-do/shopping/souvenirs/lino-namai/,Lino namai,"Laisvės al. 88, Kaunas",+370 37 209 711,info@linonamai.lt,www.siulas.lt,"I - V 10:00 - 19:00
+VI 10:00 - 16:00","I - V 10:00 - 19:00
+VI 10:00 - 16:00",,,SOUVENIRS
+35,http://visit.kaunas.lt/en/to-do/for-children/playing-rooms/kar-kar-landas/,"""KAR KAR LAND'AS""","Šiaurės pr.  8D, Kaunas ",+370 605 55 055,info@karkarlandas.lt,www.karkarlandas.lt, I - VII   10:00 – 20:00 , I - VII   10:00 – 20:00 ,,,PLAYING ROOMS
+36,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/break-free/,Break Free,"Gedimino g. 30, Kaunas / Kęstučio g. 17, Kaunas",+370 607 73 743,info@breakfree.lt,www.breakfree.lt,,,,,TASK ROOMS
+37,http://visit.kaunas.lt/en/to-do/shopping/shopping-centers/the-shopping-and-entertainment-center-mega/,The shopping and entertainment center „Mega“,"Islandijos pl. 32, Kaunas",+370 37 239 000,info@mega.lt,www.mega.lt,I-VII 8:00 - 24:00,I-VII 8:00 - 24:00,,,SHOPPING CENTERS
+38,http://visit.kaunas.lt/en/to-do/shopping/bookstores/1001-book/,1001 Book,"Vilniaus g. 11, Kaunas",+370 37 209581,beneta@humanitas.lt,www.humanitas.lt,,,,,BOOKSTORES
+39,http://visit.kaunas.lt/en/to-do/traditional-events/may/kaunas-hanseatic-days/,KAUNAS HANSEATIC DAYS (May),,+370 37 209 143,kulturos.skyrius@kaunas.lt,www.kaunas.lt,Gegužė,Gegužė,,,MAY
+40,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/climbing-club/,"""CLIMBING CLUB"" ","Žemaičių g. 31, Kaunas",+370 672 19 865,info@laipiojimoklubas.lt,https://www.facebook.com/ClimbingClubKaunas/,,,,,EXTREME
+41,http://visit.kaunas.lt/en/to-do/culture-cinema/theater/national-kaunas-drama-theatre/,NATIONAL KAUNAS DRAMA THEATRE,"Laisvės al. 71, Kaunas",+370 37 224 064,info@dramosteatras.lt,www.dramosteatras.lt,,,,,THEATER
+42,http://visit.kaunas.lt/en/to-do/shopping/flowers/pasaulio-geles-main-shop/,Pasaulio Gėlės (Main shop),"Jurbarko g. 5, Kaunas",+370 37 363 512,info@pasauliogeles.lt,http://www.pasauliogeles.lt/,I - VII 07:00 - 19:00,I - VII 07:00 - 19:00,,,FLOWERS
+43,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/expedicija-lt/,eXpedicija.lt,"Jadagonių k., Kauno r. ",+370 615 73 393,info@eXpedicija.lt,www.expedicija.lt,,,,,EXTREME
+44,http://visit.kaunas.lt/en/to-do/shopping/flowers/pasaulio-geles/,Pasaulio Gėlės,"Jonavos g. 60, Kaunas",+370 37 363 512,info@pasauliogeles.lt,http://www.pasauliogeles.lt/,24 / 7,24 / 7,,,FLOWERS
+45,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/reflections-of-kaunas-modernistic-architecture/,Reflections of Kaunas modernistic architecture,"Rotušės a. 15, Kaunas",+370 616 23828,info@kaunasin.lt,,,,,,TOURS IN KAUNAS
+46,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/gargaras/,Gargaras,"Raudondvario pl. 101, Kaunas",+370 637 71 717,info@gargaras.lt,www.gargaras.lt,,,,,NIGHT CLUBS
+47,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/dejavu-party-bar/,Dejavu Party Bar ,"Rotušės a. 2, Kaunas",+370 692 22 220,dejavupartybar@inbox.lt,https://www.facebook.com/DejavuPartyBar/,III-VI 23:00 - 05:00,III-VI 23:00 - 05:00,,,NIGHT CLUBS
+48,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/vytautas-the-great-war-museum/,VYTAUTAS THE GREAT WAR MUSEUM,"K. Donelaičio g. 64, Kaunas ",+370 37 320 765,vdkaromuziejus@kam.lt,www.kariuomene.kam.lt/lt/karo_muziejus.html,II - VII 10:00 – 17:00,II - VII 10:00 – 17:00,"Adults - 2 EUR, children, students, seniors - 1 EUR",,MUSEUM
+49,http://visit.kaunas.lt/en/to-do/active-leisure/bowling-billiards/undine/,UNDINĖ,"Jonavos g. 40, Kaunas",+370 686 22 337,info@undine.lt,www.undine.lt,"I 11:00 - 00:00
+II-VI 11:00 - 01:00
+VII 11:00 - 00:00","I 11:00 - 00:00
+II-VI 11:00 - 01:00
+VII 11:00 - 00:00",,,"BOWLING, BILLIARDS"
+50,http://visit.kaunas.lt/en/to-do/shopping/shopping-centers/trade-town-urmas/,"Trade town ""Urmas""","Pramonės pr. 16, Kaunas",+370 37 350 662,info@urmas.net,www.urmas.net,"I-V 9:00-18:00
+VI 9:00-17:00
+VII  9:00-15:00","I-V 9:00-18:00
+VI 9:00-17:00
+VII  9:00-15:00",,"The URMAS Trade Town is a huge complex building of shops and original markets with own traditions. The Trade Town offers everything one might need in more than 2000 stores: from a tooth brush to fur coats, furniture, etc. Visitors do not need to waste much time searching for the items they need because the goods are displayed in small-sized glass “boutiques”. The main necessities are put on view near the main “aisles”. A convenient way to get to the URMAS Trade Town from the center of the city is by trolleybus No. 15 or 16.",SHOPPING CENTERS
+51,http://visit.kaunas.lt/en/to-do/active-leisure/in-the-sky/air-balloon-fligh/,Air balloon fligh,,+370 618 30 069,info@orobalionas.lt,www.skrydziaiorobalionais.lt,,,,A FLIGHT IN A BALLOON IS ONE OF PLEASURE!,IN THE SKY
+52,http://visit.kaunas.lt/en/to-do/active-leisure/paintball/saudom/,"""Šaudom""","Girstupio g. 6, Kaunas",+370 682 44 555,info@saudom.lt,http://saudom.lt/lt,,,,,PAINTBALL
+53,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/biofirst-advanced-medical-and-beauty-clinic/,BIOFIRST –  ADVANCED MEDICINE AND BEAUTY CLINIC,"Studentų g. 37, Kaunas",+370 686 40 115,info@bioklinika.lt,http://www.biogrozis.lt/,"I - V -  09:00 – 20:00
+VI - 09:00 – 15:00 ","I - V -  09:00 – 20:00
+VI - 09:00 – 15:00 ",,,SPA AND WELLNESS CENTERS
+54,http://visit.kaunas.lt/en/to-do/shopping/souvenirs/ploksteliu-parduotuve/,Records shop ,"Kęstučio g. 7, Kaunas",+370 671 49516,ploksteliuparduotuve@gmail.com,www.ploksteliuparduotuve.lt,"I–V 10:00 – 18:00
+ VI 10:00  – 14:00","I–V 10:00 – 18:00
+ VI 10:00  – 14:00",,"Using our Okki Nokki Record Cleaning Machine, we offer a complete record cleaning service to help bring your vinyl back to life.",SOUVENIRS
+55,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/toscana/,Toscana,T. Masiulio g. 18E,+370 602 77 777,info@parkhotel.lt,www.pazaislisparkhotel.lt,,,,Sauna,SPA AND WELLNESS CENTERS
+56,http://visit.kaunas.lt/en/to-do/shopping/souvenirs/gintarinis-suvenyras/,Gintarinis suvenyras,"Vilniaus g. 14, Kaunas",+370 37 225 126,info@gintarinissuvenyras.lt,http://balticbuy.com/,I - VI 10:00 - 18:30,I - VI 10:00 - 18:30,,"Pieces of amber, linen and brass. ",SOUVENIRS
+57,http://visit.kaunas.lt/en/to-do/active-leisure/rental/bicycle-rental-and-service-babilonas/,"Bicycle rental and service ""Babilonas""","Žalioji g. 38A, Kaunas ",+370 612 62 601,babilonas@babilonas.lt,www.babilonas.lt,,,,,RENTAL
+58,http://visit.kaunas.lt/en/to-do/health-and-leisure/beauty-salon/junora-beauty-lab/,Junora beauty lab,"Karaliaus Mindaugo pr. 7, Kaunas",+370 37 464 464,info@junora.lt,http://www.junora.lt/,,,,,BEAUTY SALON
+59,http://visit.kaunas.lt/en/to-do/culture-cinema/theater/aura-dance-theater/,Aura Dance Theater,"M. Daukšos g. 30a, Kaunas",+370 37 202 062,info@aura.lt ,www.aura.lt,,,,"AURA is the only one municipal theatre of contemporary dance in Lithuania and one of a very few companies of contemporary dance in Lithuania that shows the skills of the professional dance. Artistic director Birute Letukaite and the dancers of the company dedicate themselves to modern dance and its traditions, which are tightly associated with such outstanding figures as pioneers of expressive dance in Lithuania Danute Nasvytyte and her follower was a student of Kira Daujotaite in the Dance Company “Sonata”. Birute Letukaite spent ten years in the company where she learned the skills of expressive dance. ",THEATER
+60,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/kaunas-city-tour/,KAUNAS CITY TOUR ,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+61,http://visit.kaunas.lt/en/to-do/traditional-events/june/kaunas-city-pupils-song-festival/,KAUNAS CITY PUPILS’ SONG FESTIVAL (June),,+370 52 611 190,lnkc@lnkc.lt,www.dainusvente.lt,Birželis,Birželis,,,JUNE
+62,http://visit.kaunas.lt/en/to-do/shopping/markets/car-boot-sales/,Car Boot Sales,"Pramonės pr. 16, Kaunas",+370 37 350 662,info@urmas.net,www.bagaziniuturgus.lt,VII 8:00 - 15:00,VII 8:00 - 15:00,,,MARKETS
+63,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/dock7/,DOCK7,"Tiesioji g. 1, Noreikiškiu km. Ringaudu sen. Kauno, Kauno Apskritis",+370 606 44 099,info@dock7.lt,http://www.dock7.lt/,,,,,EXTREME
+64,http://visit.kaunas.lt/en/to-do/shopping/flowers/geliu-sala/,Gėlių Sala,"Veiverių g.150, Kaunas ",+370 640 84 468,geliupristatymas.net@gmail.com ,http://www.gelesinternetu.eu/,"I-VI 08:00 - 20:00
+VII  09:00 - 18:00","I-VI 08:00 - 20:00
+VII  09:00 - 18:00",, ,FLOWERS
+65,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/michelle/,Michelle,"Rotušės aikštė 3, Kaunas ",+370 630 04 666,info@michelle.lt,https://www.facebook.com/michelle.kaunas/,,,,,NIGHT CLUBS
+66,http://visit.kaunas.lt/en/to-do/active-leisure/horse-riding/zirgo-zingsnis/,"""Žirgo žingsnis""","Pociūnų k., Vandžiogalos sen., Kauno raj.",+370 682 25 952,dalia@zirgozingsnis.lt,www.zirgozingsnis.lt,,,,,HORSE RIDING
+67,http://visit.kaunas.lt/en/to-do/active-leisure/in-the-sky/paragliding/,Paragliding,Kaunas,+370 671 01 050,padovanokskrydi@gmail.com,https://www.facebook.com/PadovanokSkrydi.lt/,,,,,IN THE SKY
+68,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/ka-ringas/,"""KA-RINGAS"" ","Draugystės g. 19, Kaunas",+370 678 15 676,info@ka-ringas.lt,www.ka-ringas.lt,,,,,EXTREME
+69,http://visit.kaunas.lt/en/to-do/for-children/playing-rooms/childrens-entertainment-center-euroopa/,"Children's entertainment center ""EUROOPA""","Karaliaus Mindaugo pr. 49, Kaunas",+370 615 65 953,info@pramoguimperija.lt,www.pramoguimperija.lt,I - VII  10:00 - 21:00,I - VII  10:00 - 21:00,,,PLAYING ROOMS
+70,http://visit.kaunas.lt/en/to-do/health-and-leisure/beauty-salon/carolina-make-up-studio/,Carolina make-up studio,"M. Daukšos g. 43, Kaunas",+370 671 12140,kaunas@carolina.lt,https://www.carolina.lt/,,,,,BEAUTY SALON
+71,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/naujas-lankytinos-vietos-2/,VS Fitness,"Islandijos pl. 32, Kaunas",+370 637 77 474,kaunas@vs-fitness.lt,www.vs-fitness.lt,"I-V 6:30 – 22:00
+VI - VII 8:00 – 18:00","I-V 6:30 – 22:00
+VI - VII 8:00 – 18:00",,"VS FITNESS - is the largest sports and wellness center in the Baltic countries, where you can always feel comfortable, efficiently save your time, and boldly discover your new opportunities.",SPORT CLUBS
+72,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/kaunas-the-city-of-design/,KAUNAS - THE CITY OF DESIGN,"Laisvės al. 36, Kaunas",+370 37 323 436,Info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+73,http://visit.kaunas.lt/en/to-do/traditional-events/june/bike-show-and-auto-show-millennium/,BIKE SHOW & AUTO SHOW MILLENNIUM (MAY - JUNE),,+370 682 66 666,JULIUS666@TAKAS.LT,www.bikeshow.lt,Birželis,Birželis,,,JUNE
+74,http://visit.kaunas.lt/en/to-do/culture-cinema/cinema/romuva/,Romuva," Laisvės al. 54, Kaunas",+370 37 202 788, info@kcromuva.lt,http://kcromuva.lt/,,,,,CINEMA
+75,http://visit.kaunas.lt/en/to-do/for-children/active/rio-arena/,Rio arena,"Kaunakiemio g. 5, Kaunas 44333",+370 647 82 577,info@rioarena.lt,www.rioarena.lt,"I - VII 10:00 - 23:00
+","I - VII 10:00 - 23:00
+",,,ACTIVE
+76,http://visit.kaunas.lt/en/to-do/active-leisure/in-the-sky/kaunas-skydiving-club/,Kaunas skydiving club,"Pociūnai, Prienų r.",+370 698 10 510,kestasm@skydive.lt,https://www.skydive.lt/en/,,,,"Recently, the club has performed up to 10,000 different parachuting jumps. We are meeting citizens of Poland, Latvia, Russia and other neighboring countries almost every weekend. Since mid-July 1999 the traditional event has been organized every year for parachute jump gathering - ""Pociūnai Boogie"".",IN THE SKY
+77,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/climbing-center-miegantys-drambliai/,"Climbing center ""Miegantys drambliai""","V. Krėvės pr. 49, Kaunas",+370 617 64 640,info@laipiojimocentras.lt,www.laipiojimocentras.lt/,"I - V 15:00 - 21:00
+VI - VII 12:00 - 18:00","I - V 15:00 - 21:00
+VI - VII 12:00 - 18:00",,,EXTREME
+78,http://visit.kaunas.lt/en/to-do/health-and-leisure/beauty-salon/bote-bote/,bote bote,"Kęstučio g. 51, Kaunas",+370 641 05 555,groziostudija.bote@gmail.com,http://www.botebote.lt/grozio-studija-kaune,,,,,BEAUTY SALON
+79,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/zalgiris-sport-complex/,ŽALGIRIS Sport Complex,"A. ir J. Gravrogkų g. 4, Kaunas",+370 604 03 155,sportas@zalgiris-kompleksas.lt,www.zalgiris-kompleksas.lt,"I - V 07:00 - 23:00
+VI - VII 07:00 - 21:00","I - V 07:00 - 23:00
+VI - VII 07:00 - 21:00",,"At Žalgiris Sport Complex, visitors of all ages can choose activities for improving the health of the body. Exercises will give you a sense of good mood.",SPORT CLUBS
+80,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/fankas-aerobics-and-sport-club/,FANKAS aerobics and sport club,"Savanorių pr. 66 / Žemaičių g. 31, Kaunas",+370 37 426 868,info@fankas.lt,www.fankas.lt,"I - IV 06:30 - 23:00
+V 06:30 - 22:00
+VI 09:00 - 18:00
+VII 09:00 - 18:00","I - IV 06:30 - 23:00
+V 06:30 - 22:00
+VI 09:00 - 18:00
+VII 09:00 - 18:00",,,SPORT CLUBS
+81,http://visit.kaunas.lt/en/to-do/culture-cinema/theater/kaunas-chamber-theatre/,KAUNAS CHAMBER THEATRE,"Kęstučio g. 74a, Kaunas",+370 612 62 226,info@kamerinisteatras.lt,www.kamerinisteatras.lt,,,,,THEATER
+82,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/the-old-town-secrets-in-kaunas/,THE OLD TOWN SECRETS IN KAUNAS ,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+83,http://visit.kaunas.lt/en/to-do/traditional-events/june/pazaislis-music-festival/,PAŽAISLIS MUSIC FESTIVAL (JUNE - AUGUST),,+370 37 200 478,info@pazaislis.lt,www.pazaislis.lt,Birželis - Rugpjūtis,Birželis - Rugpjūtis,,,JUNE
+84,http://visit.kaunas.lt/en/to-do/for-children/active/bam-zona/,BAM ZONA,"Savanorių pr. 352, Kaunas",+370 698 17 747,info@bamzona.lt,https://www.bamzona.lt/,,,,,ACTIVE
+85,http://visit.kaunas.lt/en/information/transport/s-dariaus-ir-s-gireno-aerodromas/,S. Darius and S. Girėnas airfield,"Veiverių g. 132 / Karo Aviacijos g. 3, Kaunas",+370 632 88 111,aleksotoaerodromas@gmail.com,http://aleksotasair.lt/,,,,"S. Darius and S. Girėnas airfield is marked as a national treasure, protected by the government and is included in the list of “Best flying destination in Europe”.",TRANSPORT
+86,http://visit.kaunas.lt/en/to-do/boat-trips/kaunas-birstonas-kaunas/,Kaunas – Birštonas – Kaunas,"T. Masiulio g. 21, Kaunas",+370 616 23828,info@kaunasin.lt,,,,,,BOAT TRIPS
+87,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/lithuanian-open-air-folk-museum/,Lithuanian open air folk museum ,"L.Lekavičiaus g. 2, Rumšiškės, Kaišiadorių r. ",+370 346 47 392,info@llbm.lt,www.llbm.lt,"Interior exposures opened: (May-September) I - VII, 10 AM - 6 PM; (1-15 of October.): I - VII, 10 AM - 6 PM; Interior exposure closed: (May-September)) I - VII 6 PM - 8 PM; (16th of October-March). I - VII 10 AM - 4 PM; (April). I - VII 10 AM - 5 PM","Interior exposures opened: (May-September) I - VII, 10 AM - 6 PM; (1-15 of October.): I - VII, 10 AM - 6 PM; Interior exposure closed: (May-September)) I - VII 6 PM - 8 PM; (16th of October-March). I - VII 10 AM - 4 PM; (April). I - VII 10 AM - 5 PM","Adults - 4 EUR, children, students, seniors - 2 EUR.",The Open-Air Museum of Lithuania ,MUSEUM
+88,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/shanti-ayurvedic-massage/,SHANTI (Ayurvedic massage) ,"Laisvės al. 3, Kaunas",+370 616 88 777,spakaunas@ajurveda.lt,http://kaunas.ajurveda.lt/,I - VII  10:00 - 21:00 ,I - VII  10:00 - 21:00 ,,Since time immemorial people have been trying to find ways how to prolong their youth and lives. Thus what can be better than ancient natural treatments that have been checked by time and experience. Ayurveda that is one of the oldest and the most effective medicine systems is widely applied in India and the rest of the world. We believe that you have to not only cure the illnesses but also to nourish your body and soul in order to live a long and healthy life.,SPA AND WELLNESS CENTERS
+89,http://visit.kaunas.lt/en/to-do/health-and-leisure/beauty-salon/ma-ma-cut/,Ma.mA Cut,"Vasario 16-osios 4, Kaunas",+370 602 53 002,,https://www.facebook.com/Ma.mA.Cut/,,,,,BEAUTY SALON
+90,http://visit.kaunas.lt/en/to-do/boat-trips/kaunas-kadagiu-slenis-kaunas/,Kaunas - Kadagių Slėnis - Kaunas,"T. Masiulio g. 21, Kaunas",+370 616 23828,info@kaunasin.lt,,,,,,BOAT TRIPS
+91,http://visit.kaunas.lt/en/to-do/culture-cinema/theater/theatre-club/,THEATRE CLUB,"Vilniaus g. 22, Kaunas",+370 698 70 787,info@teatroklubas.lt,www.teatroklubas.lt,,,,,THEATER
+92,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/kaunas-compliments-women/,KAUNAS COMPLIMENTS WOMEN ,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+93,http://visit.kaunas.lt/en/information/bike-rental/city-bee/,City bee,,+370 700 44844,info@citybee.lt,http://www.citybee.lt/lt/bzz-kaunieciai/ ,,,,"CityBee mobile app will let you use not only the bicycle, but also car sharing service. ",BIKE RENTAL
+94,http://visit.kaunas.lt/en/to-do/traditional-events/july/operetta-at-kaunas-castle/,OPERETTA AT KAUNAS CASTLE (MAY - OCTOBER),,+370 620 35 617,info@operetta.lt,www.operetta.lt,Liepa,Liepa,,,JULY
+95,http://visit.kaunas.lt/en/to-see/top/kauno-funilukieriai/,Aleksotas funicular,"Amerikos Lietuvių g. 6, Kaunas",+370 37 391 086,,,"I-VII 07:00 - 19:00 (Lunch 13:00 - 14:00)
+","I-VII 07:00 - 19:00 (Lunch 13:00 - 14:00)
+","Adults - 0.70 EUR, children, senior, students - 0.35 EUR",,TOP
+96,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/museum-of-the-history-of-lithuanian-medicine-and-pharmacy/,MUSEUM OF THE HISTORY OF LITHUANIAN MEDICINE AND PHARMACY,"Rotušės a. 28, Kaunas ",+370 37 201 569 ,muziejus@lsmuni.lt,,II – VI 10 AM – 5 PM,II – VI 10 AM – 5 PM,"Adults - 2 EUR, children, students, seniors - 1 EUR",,MUSEUM
+97,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/taboo/,TABOO,"Pilies g. 12, Kaunas",+370 655 55 189,info@piliessodas.lt,https://www.facebook.com/tabookaunas/,IV - VI 23:00 - 05:00 ,IV - VI 23:00 - 05:00 ,,,NIGHT CLUBS
+98,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/nemuno-ziedas/,Nemuno žiedas,"Nemuno g. 20, Gaižėnėlių km., Kauno raj.",+370 610 92 349,info@nemunoziedas.lt,http://www.nemunoziedas.lt/,III-VII 11:00-20:00 ,III-VII 11:00-20:00 ,,The only special Lithuanian racing circuit for cars and motorcycles “Nemunas Ring” of the Department of Physical Education and Sports under the Government of the Republic of Lithuania has been calling racers to the sport events of cars and motorcycles for more than 50 years already.,EXTREME
+99,http://visit.kaunas.lt/en/to-do/traditional-events/october/international-dance-festival-aura/,INTERNATIONAL DANCE FESTIVAL „AURA“ (OCTOBER),,+370 37 202 062,info@aura.lt,http://www.dancefestival.lt,Spalis,Spalis,,,OCTOBER
+100,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/lemon-gym/,Lemon Gym,"Baltų pr. 16, Kaunas",+370 699 26 989,info@lemongym.lt,www.lemongym.lt,"I - V 06:00 - 23:00
+VI - VII 09:00 - 21:00","I - V 06:00 - 23:00
+VI - VII 09:00 - 21:00",, ,SPORT CLUBS
+101,http://visit.kaunas.lt/en/to-do/boat-trips/kaunas-kacergine-kaunas/,Kaunas – Kačerginė – Kaunas,"T. Daugirdo g. 1, Kaunas",+370 616 23828,info@kaunasin.lt,,,,,,BOAT TRIPS
+102,http://visit.kaunas.lt/en/to-do/shopping/souvenirs/kartu-leather-accessories/,"""kARTu"" leather accessories","K. Donelaičio g. 24, Kaunas",+370 630 75 019,info@kartustudio.com,http://kartustudio.com/,,,,"kARTu – born in Lithuania, nordic design leather handbags' brand that introduces a minimalist alternative to real leather accessories. We methaporically call every kARTu handbag by a name of a different spice as each of them has a different taste, story and identity. Timeless, but created applying modern design tendencies kARTu handbags are for personalities living to the city rhythm and style. We only use highest quality leather from Italy which is specially prepared for kARTu collections planning upfront. One handbag is made by one and only proffesional craftsman from start to the last finishing touches. That's why every single kARTu bag is unique, preciselly hand-crafted and flavored with the most positive emotions only. Our main values are quality, durability and functionality which are then proportioned with modern design yet contemporary trends. kARTu is a socially responsible brand, we care about the environment and its natural materials which are used up to 100% during the creative process. We aim to raise awareness about responsible fashion and environmentally friendly choice. ",SOUVENIRS
+103,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/high-care-beauty-and-health-center/,High Care -  beauty and health center,"Laisvės al. 43, Kaunas",+370 655 34 242,info@groziocentras.lt,http://www.groziocentras.lt/,"I-V -  09:00 - 20:00
+VI -  09:00 - 16:00","I-V -  09:00 - 20:00
+VI -  09:00 - 16:00",,,SPA AND WELLNESS CENTERS
+104,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/vandens-turistai/,"""Vandens turistai""","S. Dariaus ir S. Girėno 29a., Kaunas",+370 650 23 451, admin@vandensturistai.lt, www.vandensturistai.lt,,,,,EXTREME
+105,http://visit.kaunas.lt/en/to-do/nightlife/casino/olympic-casino/,Olympic casino,"K. Donelaičio g 27, Kaunas",+370 680 24 526,LTmarketing@oc.eu,lt.olympic-casino.com/,I - VII 00:00 - 24:00,I - VII 00:00 - 24:00,,The biggest casino in Kaunas welcomes visitors with unique and,CASINO
+106,http://visit.kaunas.lt/en/to-do/culture-cinema/cultural-venue/culture-center-girstutis/,"CULTURE CENTER ""GIRSTUTIS""","Kovo 11- osios g. 26, Kaunas", +370 37 454 480,vadyba@girstutis.lt,www.girstutis.lt,,,,"Girtutis Culture Center mission - to promote professional theater, music, dance, fine arts, promote amateur reading art, find new leisure activities and much more according to different age, interests and education groups.",CULTURAL VENUE
+107,http://visit.kaunas.lt/en/to-do/traditional-events/november/the-international-kaunas-film-festival/,THE INTERNATIONAL KAUNAS FILM FESTIVAL (NOVEMBER - DECEMBER),,+370 620 51 211,info@kinofestivalis.lt,www.kinofestivalis.lt,Lapkritis - Gruodis,Lapkritis - Gruodis,,,NOVEMBER
+108,http://visit.kaunas.lt/en/to-do/boat-trips/kaunas-raudondvaris-kaunas/,Kaunas - Raudondvaris - Kaunas,"T. Daugirdo g. 1, Kaunas",+370 616 23828,info@kaunasin.lt,,,,,,BOAT TRIPS
+109,http://visit.kaunas.lt/en/to-see/top/zaliakalnio-funikulierius/,Žaliakalnis funicular,"Aušros g. 6, Kaunas",+370 37 425 882,,,"I-V 07:00 - 19:00, VI 09:00 - 19:00","I-V 07:00 - 19:00, VI 09:00 - 19:00","0,50 EUR",,TOP
+110,http://visit.kaunas.lt/en/to-do/active-leisure/golf/golf-club-elnias/,"Golf club ""ELNIAS""","Didžiųjų Lapių km., golfo g. 7, Kauno r.",+370 686 30 777 ,info@golfoklubaselnias.lt,www.golfoklubaselnias.lt,,,,,GOLF
+111,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/ana-mesha/,ANA MESHA ,"Vasario 16 - osios g. 1, Kaunas",+370 613 31 203,namai@annamesha.lt,https://www.facebook.com/annameshanamai/,,,,,NIGHT CLUBS
+112,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/thai-massage-salon-sabai-thai/,"Thai massage salon ""Sabai Thai""","J. Gruodžio g. 31, Kaunas ",+370 655 23 127,sabaithailt@gmail.com,http://sabaithai.lt/,"II-V - 11:00 - 20:00
+VI - 11:00 -18:00
+","II-V - 11:00 - 20:00
+VI - 11:00 -18:00
+",,,SPA AND WELLNESS CENTERS
+113,http://visit.kaunas.lt/en/to-do/for-children/playing-rooms/draugus/,"""Draugus""","K. Petrausko g. 13, Kaunas ",+370 614 49 962,info@draugus.lt,www.draugus.lt,I - V 10:00 - 14:00,I - V 10:00 - 14:00,,,PLAYING ROOMS
+114,http://visit.kaunas.lt/en/to-do/culture-cinema/cultural-venue/kaunas-artists-house/,KAUNAS ARTISTS HOUSE,"V. Putvinskio g. 56, Kaunas",+370 37 223 144,kmn@kmn.lt,www.kmn.lt ,,,,TIF (Tourism information friendly),CULTURAL VENUE
+115,http://visit.kaunas.lt/en/to-do/traditional-events/december/christmas-tree-lighting-festival-and-town-christmas/,CHRISTMAS TREE LIGHTING FESTIVAL AND CHRISTMAS TOWN (DECEMBER),"Rotušės a. 15, Kaunas",+370 37 209 143,kulturos.skyrius@kaunas.lt,www.kaunas.lt,"Gruodis
+Sausis","Gruodis
+Sausis",,,DECEMBER
+116,http://visit.kaunas.lt/en/to-do/culture-cinema/cultural-venue/largo-menu-svetaine/,Largo - art space,Savanorių pr. 64 Kaunas,+370 163 28 92,largo@largo.lt,http://www.largo.lt/,,,,,CULTURAL VENUE
+117,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/wake-up/,Wake up,"Raudondvario pl. 161A, Kaunas 47168",+370 686 69 222,info@pirmojigrupe.lt,https://www.facebook.com/wakeupkaunas,,,,,EXTREME
+118,http://visit.kaunas.lt/en/to-do/boat-trips/perlas-boat-trip/,Perlas Boat trip,"T. Daugirdo g. 1, Kaunas",+370 616 23828,info@kaunasin.lt,,,,,,BOAT TRIPS
+119,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/kaunas-tadas-ivanauskas-museum-of-zoology/,Kaunas Tadas Ivanauskas Museum of Zoology,"Laisvės al. 106, Kaunas ",+370 37 200 292,info@zoomuziejus.lt ,www.zoomuziejus.lt,II-VII 10 A.M. - 6 P.M.,II-VII 10 A.M. - 6 P.M.,"Adults - 3 EUR, students, children, seniors - 2 EUR.",,MUSEUM
+120,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/izide-womens-sports-club/,IZIDĖ women's sports club,"Bajorų g. 8, Kaunas",+370 642 99 554,,https://www.facebook.com/moteru.izide/,"I - V 09:00 - 20:00
+VI 09:00 - 15:00
+VII closed","I - V 09:00 - 20:00
+VI 09:00 - 15:00
+VII closed",,,SPORT CLUBS
+121,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/lazertronas/,Lazertronas,"Varnių g. 48B, Kaunas",+370 607 79 780 ,info@lazertronas.lt,http://www.lazertronas.lt,,,,,EXTREME
+122,http://visit.kaunas.lt/en/to-do/traditional-events/september/kaunas-biennial/,Kaunas Biennial (September - November),,+370 606 14 370,kotryna@biennial.lt,www.bienale.lt,Rugsėjis - Lapkritis,Rugsėjis - Lapkritis,,,SEPTEMBER
+123,http://visit.kaunas.lt/en/to-see/top/lietuvos-zoologijos-sodas/,Lithuanian zoological garden,"Radvilėnų pl. 21, Kaunas",+370 37 332 540,info@zoosodas.lt,www.zoosodas.lt,"January - March, November and December I-VII 9:00 - 17:00, April and October 9:00 - 18:00, May - September mėn. 9:00 - 19:00","January - March, November and December I-VII 9:00 - 17:00, April and October 9:00 - 18:00, May - September mėn. 9:00 - 19:00","Adults - 5 EUR, children, students, senors and disabled - 3 EUR",,TOP
+124,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/leta-callanetics/,LETA Callanetics,"Romainių g. 48B, Kaunas",+370 657 57 718,raimonda1612@yahoo.com,www.leta.lt,,,,,SPORT CLUBS
+125,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/sweet-kaunas/,SWEET KAUNAS,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+126,http://visit.kaunas.lt/en/to-do/culture-cinema/cinema/cinamon/,Cinamon,"Islandijos str. 32, Kaunas",1588,info@cinamonkinas.lt,https://cinamonkinas.lt/en/,I - VII 10:00 - 24:00,I - VII 10:00 - 24:00,,,CINEMA
+127,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/sandelis/,Sandėlis,"Muziejaus g. 8, Kaunas",+370 638 18 549, info@sandelis.eu,https://www.facebook.com/sandelis.kaunas/,"V - 18:00 - 04:00
+VI 18:00 - 04:00","V - 18:00 - 04:00
+VI 18:00 - 04:00",,,NIGHT CLUBS
+128,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/wake-b1/,Wake B1,"Užusalių tvenkinys, Užusaliai, Kauno Apskritis",+370 684 60 071,wakeparkb1@gmail.com,https://www.facebook.com/WakeparkB1/,08:00 - 23:00,08:00 - 23:00,,,EXTREME
+129,http://visit.kaunas.lt/en/to-do/traditional-events/march/naujas-lankytinos-vietos-4/,Festival „Dive to the theater“ (March),"Laisvės al. 71, Kaunas",+370 37 224 064,info@dramosteatras.lt,www.dramosteatras.lt,March,March,,,MARCH
+130,http://visit.kaunas.lt/en/to-see/top/devils-museum/,Devils museum,"V. Putvinskio g. 64, Kaunas ",+370 37 221 587,mkc.velniai@ciurlionis.lt,www.ciurlionis.lt,"II-III 11:00 - 17:00, IV 11:00 - 19:00, V - VII 11:00 - 17:00","II-III 11:00 - 17:00, IV 11:00 - 19:00, V - VII 11:00 - 17:00","Adults - 3 EUR, schoolchildren, students, seniors - 1,5 EUR",,TOP
+131,http://visit.kaunas.lt/en/to-do/culture-cinema/cinema/forum-cinemas/,Forum Cinemas,"Karaliaus Mindaugo pr. 49, Kaunas",+370 5 264 4764,info@forumcinemas.lt,http://www.forumcinemas.lt,I - VII 10:00 - 22:00,I - VII 10:00 - 22:00,,,CINEMA
+132,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/historical-military-equipment-exhibition/,"Historical, military equipment exhibition","S.Dariaus ir S.Girėno g. 29A, Kaunas",+370 682 27 122,info@retromobile.lt,www.retromobile.lt,The exhibition can be visited by early agreement,The exhibition can be visited by early agreement,,,MUSEUM
+133,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/moteru-ekspresas-sport-club/,MOTERŲ EKSPRESAS Sport club," Raudondvario pl. 101, Kaunas",+370 678 74 957 ,info@moteruekspresas.lt,www.moteruekspresas.lt,"I - IV 7.30 - 20.30
+V 7.30 - 20.00 
+VI 9.00 - 13.00
+VII closed","I - IV 7.30 - 20.30
+V 7.30 - 20.00 
+VI 9.00 - 13.00
+VII closed",,,SPORT CLUBS
+134,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/netradicine-diena-kaune/,UNTRADITIONAL DAY IN KAUNAS,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+135,http://visit.kaunas.lt/en/to-do/traditional-events/june/naujas-lankytinos-vietos-5/,Kaunas marathon (June),,+370 610 65 833,info@kaunasmarathon.lt,www.kaunasmarathon.lt,Birželis,Birželis,,,JUNE
+136,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/baltic-circus-clowns-museum/,Baltic circus clowns Museum,"Drobės g. 31, Kaunas",+370 670 16 445,baltijos@cirkas.lt,www.cirkas.lt,Arranged in advance,Arranged in advance,,,MUSEUM
+137,http://visit.kaunas.lt/en/to-do/active-leisure/paintball/legionas/,"""Legionas""","Alksnių g. 6, Kaunas",+370 687 22 333,info@legionas.lt,www.legionas.lt,,,,,PAINTBALL
+138,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/lekstuciu-saudymas/,Clay shooting,"Malūno g. 6, Kunionių k., Kėdainių r.",+370 698 33 059,info@shootingclub.lt,www.medziotojusostine.lt,,,,,EXTREME
+139,http://visit.kaunas.lt/en/to-do/traditional-events/may/naujas-lankytinos-vietos-6/,Design week (May),,+370 618 28 752,kaunas@dizainosavaite.lt,www.dizainosavaite.lt,Gegužė,Gegužė,,,MAY
+140,http://visit.kaunas.lt/en/to-do/active-leisure/bowling-billiards/neo-kaunas/,Neo Kaunas,"Savanorių pr. 350, Kaunas",+370 37 311 114,info@neokaunas.lt,www.neokaunas.lt,"I 12:00 - 23:00
+II - IV 12:00 - 24:00
+V - VI 12:00 - 01:00
+VII 12:00 - 23:00","I 12:00 - 23:00
+II - IV 12:00 - 24:00
+V - VI 12:00 - 01:00
+VII 12:00 - 23:00",,,"BOWLING, BILLIARDS"
+141,http://visit.kaunas.lt/en/to-do/active-leisure/tennis/the-central-tennis-court-azuolyno-sporto-klubas/,"The central tennis court ""Ąžuolyno sporto klubas""","Sporto g. 3, Kaunas",+370 682 23 450 ,irmantas@bimbam.lt,http://tenisas.lt/,,,,,TENNIS
+142,http://visit.kaunas.lt/en/to-do/shopping/shopping-centers/shopping-and-entertainment-center-akropolis/,Shopping and entertainment center „Akropolis“,"Karaliaus Mindaugo pr. 49, Kaunas",+370 659 38262,infoakropolis@newsec.lt,www.kaunoakropolis.lt,I-VII 8:00 - 22:00,I-VII 8:00 - 22:00,,,SHOPPING CENTERS
+143,http://visit.kaunas.lt/en/to-do/shopping/shopping-centers/prekybos-ir-paslaugu-centras-molas/,SHOPPING AND LEISURE CENTER „MOLAS“,"K. Baršausko g. 66A, Kaunas", +370 37  451 441,infomolas@newsec.lt,www.molas.lt,I-VII 8:00 - 22:00,I-VII 8:00 - 22:00,,"Shopping and entertainment center ""Molas"".",SHOPPING CENTERS
+144,http://visit.kaunas.lt/en/to-do/active-leisure/paintball/paintball-in-kaunas/,Paintball in Kaunas,"Pabrėžos g. 1a, Kaunas",+370 667 06 666,info@dazasvydiskaune.lt,http://dazasvydiskaune.lt/lt,,,,,PAINTBALL
+145,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/museum-of-lithuanian-aviation/,Museum of Lithuanian aviation,"Veiverių g. 132, Kaunas ",+370 37 390 357,aviacijos.muziejus@gmail.com,www.lam.lt, I - VI 9 AM - 5 PM, I - VI 9 AM - 5 PM,"Adults - 2,00 EUR, schoolchildren, students, seniors - 1,00 EUR",,MUSEUM
+146,http://visit.kaunas.lt/en/medical-tourism/spa-and-rehabilitation/azuolynas-medical-spa/,ĄŽUOLYNAS MEDICAL SPA,"Sporto g. 3, Kaunas",+370 640 45 761,info@azuolynospa.lt,www.azuolynospa.lt,"I - V - 09:00 - 21:00
+VI - 09:00 - 16:00","I - V - 09:00 - 21:00
+VI - 09:00 - 16:00",,,SPA AND REHABILITATION
+147,http://visit.kaunas.lt/en/to-do/active-leisure/extreme/kartlandas/,Kartlandas ,"Drobės g. 62, Kaunas",+370 696 10 555,info@kartlandas.lt,https://www.kartlandas.lt,"I - V 14:00 – 23:00
+VI - VII  10:00 – 23:00","I - V 14:00 – 23:00
+VI - VII  10:00 – 23:00",,,EXTREME
+148,http://visit.kaunas.lt/en/to-do/traditional-events/may/gallery-weekend-kaunas-may/,Gallery Weekend Kaunas (May),,+370 692 92 332,galleryweekendkaunas@gmail.com,www.galleryweekendkaunas.lt,Gegužė,Gegužė,,,MAY
+149,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/sugihara-route/,SUGIHARA ROUTE,"Rotušės a. 15, Kaunas",+370 616 23828,info@kaunasin.lt,,,,,,TOURS IN KAUNAS
+150,http://visit.kaunas.lt/en/to-do/active-leisure/golf/the-capitals-golf-club/,The Capitals Golf Club,"Pipiriškių k., Pastrėvio sen., Elektrėnų sav., Lietuva",+370 619 99 999,info@capitals.lt  ,www.capitals.lt ,"May - August I – VII 9.00 – 20.00
+September - October I – VII 10.00 – 18.30","May - August I – VII 9.00 – 20.00
+September - October I – VII 10.00 – 18.30",,,GOLF
+151,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/military-kaunas/,MILITARY KAUNAS ,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+152,http://visit.kaunas.lt/en/to-do/traditional-events/september/naujas-lankytinos-vietos-7/,Sugihara week (September),,+370 678 81 400,sugiharaweek@gmail.com,www.sugiharahouse.com,Rugsėjis,Rugsėjis,,,SEPTEMBER
+153,http://visit.kaunas.lt/en/to-see/places-to-visit/tallest-marine-aquarium-in-the-baltics/,,,,,,,,,,PLACES TO VISIT
+154,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/zalgirio-arena/,ŽALGIRIS ARENA,"Karaliaus Mindaugo pr. 50, Kaunas",+370 615 98 636,info@zalgirioarena.lt,,,,, ,TOURS IN KAUNAS
+155,http://visit.kaunas.lt/en/to-do/traditional-events/may/naujas-lankytinos-vietos-8/,Museums night (May),,+370 5 279 0918 ,labadiena@museums.lt,www.muziejunaktis.lt,Gegužė,Gegužė,,,MAY
+156,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/medieval-kaunas/,MEDIEVAL KAUNAS,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+157,http://visit.kaunas.lt/en/to-do/traditional-events/september/naujas-lankytinos-vietos-9/,Kaunas photo (September),,,festival@KaunasPhoto.info,www.festival.kaunasphoto.com,Rugsėjis,Rugsėjis,,,SEPTEMBER
+158,http://visit.kaunas.lt/en/to-do/shopping/souvenirs/ruta-sweets-shop/,„Rūta“ sweets shop,"Laisvės al. 88, Kaunas", +370 618 27 060,info@ruta.lt,www.ruta.lt,,,,,SOUVENIRS
+159,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/kaunas-provisional-capital/,Kaunas – Provisional Capital ,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+160,http://visit.kaunas.lt/en/to-do/traditional-events/may/naujas-lankytinos-vietos-10/,Poetry spring festival (May),,+370 5 123 919,sajunga@rasytojai.lt,www.rasytojai.lt,Gegužė,Gegužė,,,MAY
+161,http://visit.kaunas.lt/en/to-do/active-leisure/bowling-billiards/amerigo/,Amerigo,"Islandijos pl. 32, Kaunas",+370 37 328 686,info@amerigo.lt,www.amerigo.lt,"I - III 10:00 - 23:00
+IV - VI 10:00 - 24:00
+VII 10:00 - 23:00","I - III 10:00 - 23:00
+IV - VI 10:00 - 24:00
+VII 10:00 - 23:00",,,"BOWLING, BILLIARDS"
+162,http://visit.kaunas.lt/en/to-do/active-leisure/in-the-sky/kaunas-hot-air-balloon-club/,Kaunas hot air balloon club,Kaunas,+370 699 34 154,oreiviai@oreiviai.lt,www.oreiviai.lt,,,,,IN THE SKY
+163,http://visit.kaunas.lt/en/to-do/active-leisure/rental/sports-inventory-rent/,SPORTS INVENTORY RENT,"Savanorių pr. 273, Kaunas",+370 675 27 150,infosportovizija@gmail.com,www.sportvision.lt,"I - V  10:00 - 19:00 
+VI  10:00 - 16:00 
+","I - V  10:00 - 19:00 
+VI  10:00 - 16:00 
+",,,RENTAL
+164,http://visit.kaunas.lt/en/to-do/culture-cinema/cultural-venue/kaunas-cultural-centretautos-namai/,"KAUNAS CULTURAL CENTRE ""TAUTOS NAMAI""","Vytauto pr. 79/Kęstučio g. 1, Kaunas",+ 370 37 320 661,info@tautosnamai.lt,www.tautosnamai.lt  ,,,,"Housed inside a rather plain-looking Socialist Realist building from the 1950s, what these people lack in funding they more than make up for in enthusiasm. The city’s spiritual home of all things connected with music, theatre, dance, singing and an awful lot more. Get involved, or simply keep an eye on the posters outside to see what events are coming up.",CULTURAL VENUE
+165,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/nocturnal-kaunas-now-and-70-years-ago/,KAUNAS BY NIGHT NOW AND 70 YEARS AGO ,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+166,http://visit.kaunas.lt/en/to-do/traditional-events/naujas-lankytinos-vietos-11/,Kaunas Street Art Festival „NYKOKA“,,+370 687 97 950,labas@nykoka.lt,www.nykoka.lt,Sausis - Gruodis,Sausis - Gruodis,,,TRADITIONAL EVENTS
+167,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/kaunas-city-museum-mikas-and-kipras-petrauskas-house/,KAUNAS CITY MUSEUM - MIKAS AND KIPRAS PETRAUSKAS HOUSE,"K. Petrausko g. 31, Kaunas",+370 37 733 371,,www.kaunomuziejus.lt," II – V 10 AM – 6 PM, VI 10 AM – 5 PM"," II – V 10 AM – 6 PM, VI 10 AM – 5 PM","Adults - 2,00 EUR, children, students, seniors - 1,20 EUR",,MUSEUM
+168,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/impuls-zalgiris-arena/,IMPULS (Žalgiris Arena),"Karaliaus Mindaugo pr. 50, Kaunas",+370 652 66 592,zalgirio.arena@impuls.lt,www.impuls.lt/,"I - V 06:00 - 23:00
+VI - VII 10:00 - 17:00","I - V 06:00 - 23:00
+VI - VII 10:00 - 17:00",,,SPORT CLUBS
+169,http://visit.kaunas.lt/en/to-do/culture-cinema/cultural-venue/kaunas-national-culture-centre/,KAUNAS NATIONAL CULTURE CENTRE,"A. Jakšto g. 18, Kaunas",+370 37 407 135,ktkc.info@gmail.com,www.ktkc.lt,,,,,CULTURAL VENUE
+170,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/kaunas-surrounded-water/,KAUNAS SURROUNDED BY WATER,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN KAUNAS
+171,http://visit.kaunas.lt/en/to-do/active-leisure/bowling-billiards/futas/,FUTAS,"Šv. Gertrūdos g. 44, Kaunas",+370 606 11 950,mb.futas@gmail.com,https://www.facebook.com/futbopulas/,,,,,"BOWLING, BILLIARDS"
+172,http://visit.kaunas.lt/en/to-do/traditional-events/november/naujas-lankytinos-vietos-12/,Modern music festival „Iš arti” (November),,+370 699 37 244,info@isarti.lt,www.isarti.lt,Lapkritis,Lapkritis,,,NOVEMBER
+173,http://visit.kaunas.lt/en/to-do/shopping/shopping-centers/shopping-center-savas/,Shopping center „Savas“,"Savanorių pr. 346, Kaunas",+370 37 730 600,ausra@hanner.lt, www.savascentras.lt,I-VII 8:00 - 22:00,I-VII 8:00 - 22:00,,"Convenient and comfortable shopping centre, located in a busy part of the city, shopping center Savas receives about 11 000 visitors. The shopping center is has more than 70 kinds of stores: food, clothing, shoes, accessories, jewelry, cosmetics and perfumes, gifts, mobile phones, animals, as well as the bookstore, optician salon, a pharmacy, a bank branch, a bakery, several restaurants and service companies branches. Anyone who appreciates art and comfort, will find useful and necessary things every day.",SHOPPING CENTERS
+174,http://visit.kaunas.lt/en/to-see/museums-and-galleries/museum/museum-of-children-literature/,Museum of Children Literature,"K. Donelaičio g. 13, Kaunas ",+370 37 206 488,daiva.sarkanauskaite@maironiomuziejus.lt ,www.maironiomuziejus.lt,II – VI 9 AM – 5 PM,II – VI 9 AM – 5 PM,"Adults - 2 EUR,  scholars, students ir seniors - 0,50 EUR",,MUSEUM
+175,http://visit.kaunas.lt/en/to-do/active-leisure/rental/dviraciu-rusys/,"""DVIRAČIŲ RŪSYS""","Miško g. 30, Kaunas",+370 37 208 765,,www.dviratispro.lt/,"I - V  10:30 - 18:00
+VI  10:30 - 16:00","I - V  10:30 - 18:00
+VI  10:30 - 16:00",,,RENTAL
+176,http://visit.kaunas.lt/en/to-do/traditional-events/may/naujas-lankytinos-vietos-2/,Kaunas cycling race (May),,+370 699 33 661 ,dviratai@dviratai.lt,www.dviratai.lt,Gegužė,Gegužė,,,MAY
+177,http://visit.kaunas.lt/en/to-do/traditional-events/september/naujas-lankytinos-vietos-3/,Festival of traditional and modern folklore „SUKLEGOS“ (September),,+370 683 93 786,info@suklegos.lt,www.suklegos.lt,Rugsėjis,Rugsėjis,,,SEPTEMBER
+178,http://visit.kaunas.lt/en/to-do/culture-cinema/theater/kaunas-puppet-theatre/,KAUNAS PUPPET THEATRE,"Laisvės al. 87a, Kaunas ",+370 37 227 158,info@kaunoleles.lt ,www.kaunoleles.lt,,,,"Established in 1958 the KAUNAS PUPPET THEATRE registers in its chronicle more than 180 puppet performances, a great number of tours to foreign countries, such as Hungary, Italy, Poland, Bulgaria, Finland, Denmark, Sweden, Germany, Czech Republic, Former Soviet Republics and remote countries of Latin America and festivals in many of them. Following the idea, generated by the founders of the Theatre, spouses Stasys Ratkevicius and Valerija Ratkeviciene, that everything what is being done at the theatre, should belong to the little ones, the theatre of today alongside with traditional classical puppet performances should be searching for new and engaging ways of association with little spectators who, through displayed kindness and beauty, would experience the utmost satisfaction and impact on their consciousness and feelings. Based on this point of view, new traditions of new theatrical arrangements during the last decade were generated in the Theatre.",THEATER
+179,http://visit.kaunas.lt/en/to-do/traditional-events/may/naujas-lankytinos-vietos-13/,Choral festival „Kaunas Cantat“ (May),,+370 631 43 428,info@lituaniacantat.lt,www.kaunascantat.lt,Gegužė,Gegužė,,,MAY
+180,http://visit.kaunas.lt/en/information/bike-rental/kaunas-bike/,Kaunas Bike,I. Kanto 19-1 Kaunas,+370 611 55 748,​kaunasbike@gmail.com ,http://www.kaunasbike.lt/,"I-V 11:00 a.m. - 7:00 p.m. 
+VI  11:00 a.m. - 4:00 p.m.
+VII  closed","I-V 11:00 a.m. - 7:00 p.m. 
+VI  11:00 a.m. - 4:00 p.m.
+VII  closed",,"Kaunas bikes are of high quality, well maintained and comply to safety requirements. They can bring you to sightseeing places or you can simply have a fun ride with friends.",BIKE RENTAL
+181,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/public-sauna/,Public Sauna,"Jonavos g. 41D, Kaunas",+370 694 96 888,info@pirtiesnamai.lt,http://www.pirtiesnamai.lt/,,,,,SPA AND WELLNESS CENTERS
+182,http://visit.kaunas.lt/en/to-do/traditional-events/march/naujas-lankytinos-vietos-14/,The International Youth Music Festival (March - April),"E. Ožeškienės g. 12, Kaunas",+370 37 200 478,info@kaunofilharmonija.lt,www.kaunofilharmonija.lt,Kovas - Balandis,Kovas - Balandis,,,MARCH
+183,http://visit.kaunas.lt/en/to-do/shopping/boutique/ile-ile/,Ile Ile,"Kurpių g. 13, Kaunas",+370 686 66 850 ,ileile@ileile.lt ,http://ileile.lt/,"I–V 10:30–19:00
+VI 11:00–17:00","I–V 10:30–19:00
+VI 11:00–17:00",,,BOUTIQUE
+184,http://visit.kaunas.lt/en/to-do/traditional-events/september/naujas-lankytinos-vietos-15/,Kaunas Autumn Rally (September),,+370 688 48 260,auto.veteranai@gmail.com,www.autoveteranai.lt,Rugsėjis,Rugsėjis,,,SEPTEMBER
+185,http://visit.kaunas.lt/en/to-do/tours/tours-in-kaunas/tour-with-audioguide-bus/,Tour with Audio Guide Bus,,+370 699 54 064,info@vilniuscitytour.com,http://www.senamiesciogidas.lt/ekskursija-po-kaun261-su-pa382aisliu-audio.html,III - VII,III - VII,12-15 Eur.,12:40*,TOURS IN KAUNAS
+186,http://visit.kaunas.lt/en/to-do/culture-cinema/cultural-venue/six-chairs-books/,Six chairs books,Putvinskio g. 56 Kaunas,+370 611 65 330,info@sixchairsbooks.lt,www.sixchairsbooks.lt,III - V  16:00 - 19:30,III - V  16:00 - 19:30,,,CULTURAL VENUE
+187,http://visit.kaunas.lt/en/eat-and-drink/naujas-produktu-kategorija-2/knygu-ministerija/,Knygų ministerija,"Laisvės al. 29, Kaunas",+370 640 39 076,knygynas@knyguministerija.lt ,https://www.facebook.com/knyguministerija/,"I - V 9:00 a.m. - 9:00 p.m.
+VII 10:00 a.m. - 7:00 p.m.
+","I - V 9:00 a.m. - 9:00 p.m.
+VII 10:00 a.m. - 7:00 p.m.
+",, ,COFFEE LOVERS
+188,http://visit.kaunas.lt/en/to-do/active-leisure/tennis/ecotennis/,ecoTENNIS,"Draugystės g. 10, Kaunas",+370 640 46 661,info@ecotennis.lt,www.ecotennis.lt,"I 7:30 - 22:00
+II - IV 7:00 - 22:00
+V 7:30 - 22:00
+VI - VII 9:00 - 21:00","I 7:30 - 22:00
+II - IV 7:00 - 22:00
+V 7:30 - 22:00
+VI - VII 9:00 - 21:00",,,TENNIS
+189,http://visit.kaunas.lt/en/to-do/active-leisure/tennis/gvidas-sabeckas-tennis-school/,Gvidas Sabeckas tennis school,"Veiverių g.151, Kaunas",+370 699 55 195,gvidassabeckis@yahoo.com,www.sabeckiotenisomokykla.lt,,,,,TENNIS
+190,http://visit.kaunas.lt/en/to-do/active-leisure/horse-riding/kadagiu-slenio-zirgai/,Kadagių slėnio žirgai,"Kadagių slėnio g. 33, Arlaviškės",+370 686 32 439,ernestav9@gmail.com,www.zirgai.jimdo.com,,,,,HORSE RIDING
+191,http://visit.kaunas.lt/en/to-do/shopping/markets/vilijampoles-turgus-market/,"„Vilijampolės Turgus"" – Market","Varnių g. 48, Kaunas",+370 37 362 070,info@vilijampolesturgus.lt,http://www.vilijampolesturgus.lt/,I-VII 7:30 - 16:00,I-VII 7:30 - 16:00,,,MARKETS
+192,http://visit.kaunas.lt/en/to-do/shopping/shopping-centers/shopping-center-hyper-maxima/,Shopping center „Hyper Maxima“,"Savanorių pr. 255, Kaunas",+370 37 307 430,, www.maxima.lt,I-VII 8:00 - 23:00,I-VII 8:00 - 23:00,," Shopping and service centre ""Hyper Maxima"".",SHOPPING CENTERS
+193,http://visit.kaunas.lt/en/to-do/nightlife/casino/casino-admiral/,CASINO ADMIRAL,"Karaliaus Mindaugo pr. 49, Kaunas",+370 37 242 644,info@casinoadmiral.lt,http://www.casinoadmiral.lt/en/casino/kaunas-akropolis/,I - VII   0:00 - 24:00,I - VII   0:00 - 24:00,,,CASINO
+194,http://visit.kaunas.lt/en/to-do/active-leisure/tennis/kaunas-zalgiris-sports-complex/,Kaunas Žalgiris Sports Complex,"A. ir J. Gravrogkų g. 4, Kaunas",+370 604 03 155,sportas@zalgiris-kompleksas.lt,www.zalgiris-kompleksas.lt,"I - V 7:00 - 23:00
+VI - VII 7:00 - 21:00 ","I - V 7:00 - 23:00
+VI - VII 7:00 - 21:00 ",,,TENNIS
+195,http://visit.kaunas.lt/en/to-do/active-leisure/horse-riding/ziegzdriu-zirgynas/,"""Žiegždrių žirgynas""","Žiegždrių k., Kauno raj.",+370 611 28 813,,https://www.facebook.com/Ziegzdriu-zirgynas-191096307638925/,,,,,HORSE RIDING
+196,http://visit.kaunas.lt/en/to-do/active-leisure/tennis/notas-tennis-court/,"""Notas"" tennis court","R.Kalantos g. 124, Kaunas",+370 676 22 901,,www.kaunotenisas.eu,,,,,TENNIS
+197,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/linija-wellness-center/,"""Linija"" wellness center ","Taikos pr. 44a, Kaunas ",+370 37 380 319,info@linijasportas.lt,http://www.linijasportas.lt/,"I - IV  7:00 - 21:30
+V  7:00 - 20:00
+VI-VII 9:00 - 20:00","I - IV  7:00 - 21:30
+V  7:00 - 20:00
+VI-VII 9:00 - 20:00",,,SPA AND WELLNESS CENTERS
+198,http://visit.kaunas.lt/en/to-do/nightlife/casino/casino-gaming-hall/,CASINO GAMING HALL ,"Laisvės al. 93, Kaunas",+370 37 407255, tatkazino@tatkazino.lt,www.tatkazino.lt/lt/,I - VII 00.00 - 24.00,I - VII 00.00 - 24.00,,,CASINO
+199,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/pbegimo-kambarys-dp60/,DP60 - escape room,Vytauto pr. 29 Kaunas,+370 695 96 886,info@dp60.lt,http://dp60.lt/,,,,,TASK ROOMS
+200,http://visit.kaunas.lt/en/to-do/active-leisure/horse-riding/dievogalos-zirgynas/,"""Dievogalos žirgynas""","Dievogalos km., Alšėnų sen., Kauno raj.",+370 609 43 502,dievogaloszirgai@gmail.com,https://www.facebook.com/Dievogalos-%C5%BEirgynas-115646265120473/,,,,,HORSE RIDING
+201,http://visit.kaunas.lt/en/to-do/nightlife/casino/olympic-casino-mexico/,Olympic casino Mexico,"Savanorių pr. 170, Kaunas",+370 687 46 610,LTmarketing@oc.eu,lt.olympic-casino.com,I - VII 00:00-24:00,I - VII 00:00-24:00,,,CASINO
+202,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/ausros-spa/,Aušros SPA,"Aušros g. 20, 44172 Kaunas",+370 612 48 133,info@spanamai.lt,www.spanamai.lt,I - VI  10:00 - 20:00,I - VI  10:00 - 20:00,,"Aušros SPA mission is to bring equilibrium to your mind, body and spirit. You can choose from a full range of exceptional treatments followed by pure tranquility, where muscle tension and the mind’s concerns simply melt away allowing you to emerge refreshed, balanced and energized.",SPA AND WELLNESS CENTERS
+203,http://visit.kaunas.lt/en/to-see/museums-and-galleries/gallery/nyces-usai/,Nyčės Ūsai,"Pilies 1, Kaunas",+370 627 05007,elze@nycesusai.lt,http://www.nycesusai.lt/,,,,,GALLERY
+204,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/j-tulcinos-natural-medicine-center/,J. Tulčinos Natural Medicine Center,"Maironio g. 8, Kaunas",+370 37 223 139,kaunas@naturalimedicina.lt,http://www.naturalimedicina.lt,I-V  9:00 - 18:00,I-V  9:00 - 18:00,,,SPA AND WELLNESS CENTERS
+205,http://visit.kaunas.lt/en/to-do/shopping/souvenirs/baltijos-kvapai/,Baltijos kvapai,"A. Juozapavičiaus pr. 21A, Kaunas",+370 682 66 704,info@baltijoskvapai.lt,www.baltijoskvapai.lt,,,,"The company produces excellent fragrant, handmade candles made of natural soy wax, using herbal aromatic oil (some containing essential oils), odors and colors made of vegetable oil. You can buy candles from quality glass containers or conventional shaped candle.",SOUVENIRS
+206,http://visit.kaunas.lt/en/to-do/shopping/souvenirs/jaukus-namai/,Jaukūs namai,"A.Juozapavičiaus pr.21, Kaunas",+370 685 52 926,kimono@takas.lt,www.kimono.lt,"I - V  10.00-18.00
+VI   10.00-15.00","I - V  10.00-18.00
+VI   10.00-15.00",,,SOUVENIRS
+207,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/the-general-medicine-practice-clinic/,THE GENERAL MEDICINE PRACTICE CLINIC,"Savanorių pr. 423/421, Kaunas",+370 700 77778,administracija@daktaras.lt,www.daktaras.lt,"I-V - 08:00 - 19:00
+VI -  09:00 - 14:00","I-V - 08:00 - 19:00
+VI -  09:00 - 14:00",,,SPA AND WELLNESS CENTERS
+208,http://visit.kaunas.lt/en/to-do/shopping/boutique/koko-boutique/,KOKO Boutique,"Pilies g. 1, Kaunas",+370 686 94 889,info@kokoboutique.lt,www.kokoboutique.lt,"I - V 10:00 - 18:00
+VI 11:00 - 16:00","I - V 10:00 - 18:00
+VI 11:00 - 16:00",,KOKO boutique offers exclusivel designer clothes and accessories. ,BOUTIQUE
+209,http://visit.kaunas.lt/en/to-do/shopping/boutique/humana-vintage/,Humana Vintage,"Daukšos g. 25, Kaunas",+370 37 750 115,info@humana.lt,http://www.humana.lt/,"I-V 10:00 - 19:00
+VI-VII 10:00 - 16:00","I-V 10:00 - 19:00
+VI-VII 10:00 - 16:00",,,BOUTIQUE
+210,http://visit.kaunas.lt/en/to-do/shopping/boutique/rich-witch-house/,Rich Witch House,"M. Daukšos g. 6, Kaunas ",+370 639 73103,,https://www.facebook.com/Rich-Witch-House-654356744589894/,I -VI 11:00 - 18:00,I -VI 11:00 - 18:00,,,BOUTIQUE
+211,http://visit.kaunas.lt/en/to-do/shopping/boutique/apple-of-eve/,Apple of Eve,"Laisvės al. 29, Kaunas",+370 640 34 442,kaunas@appleofeve.lt,https://www.appleofeve.lt/lt/,,,,"A selection of best clothes, underwear & accessories for woman - everything made in Italy, United States and even Japan. ",BOUTIQUE
+212,http://visit.kaunas.lt/en/to-do/for-children/playing-rooms/mazi-basi/,"""Maži basi""","Žemaičių pl. 37, Kaunas",+370 620 23 666,info@mazibasi.lt,www.mazibasi.lt,,,,,PLAYING ROOMS
+213,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/sauleja-spa-silainiai/,Saulėja SPA (Šilainiai),"Baltų pr. 7a, Kaunas",+370 656 42 890,,http://sauleja.lt/,I - VII 09:00 - 21:00,I - VII 09:00 - 21:00,,,SPA AND WELLNESS CENTERS
+214,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/lemmy/,Lemmy,"Girstupio g. 1, Kaunas",+370 611 46 447,kaunasevents@gmail.com,https://www.facebook.com/LemmyKlubasKaunas/,V - VI 18:00 - 02:00,V - VI 18:00 - 02:00,,,NIGHT CLUBS
+215,http://visit.kaunas.lt/en/to-do/shopping/boutique/baby-love-boutique/,Baby Love Boutique,"Savanorių pr. 90, Kaunas",+370 647 71955,info@babylove.lt,http://www.babylove.lt/,,,,,BOUTIQUE
+216,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/mojo-lounge/,MOJO LOUNGE,Rotušės a. 20 Kaunas,+370 699 11 500,kaunas@mojolounge.lt,https://www.facebook.com/mojolounge.kaunas/,V - VI  23:00 - 05:00 ,V - VI  23:00 - 05:00 ,,,NIGHT CLUBS
+217,http://visit.kaunas.lt/en/to-do/shopping/boutique/baltas-ir-butikas/,Baltas Ir Butikas,"I. Kanto g. 18, Kaunas",+370 684 18 011,info@baltasirbutikas.lt,https://www.facebook.com/BaltasirButikasKaunas/,,,,,BOUTIQUE
+218,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/bardakas/,Bardakas,"Laisvės al. 93, Kaunas",+370 633 38 362,kaunas@bardakas.bar,https://www.facebook.com/BardakasKaunas/,"I - III 18:00 - 01:00
+IV 18:00 - 02:00
+V - VI 18:00 - 04:00
+VII 18:00 - 01:00","I - III 18:00 - 01:00
+IV 18:00 - 02:00
+V - VI 18:00 - 04:00
+VII 18:00 - 01:00",,  ,NIGHT CLUBS
+219,http://visit.kaunas.lt/en/to-do/shopping/boutique/butiq-lt/,BUTIQ.LT  ,"Karaliaus Mindaugo pr. 49, Kaunas",+370 679 91 411  ,butiq@butiq.lt,http://www.butiq.lt/,,,,,BOUTIQUE
+220,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/east-island-spa/,East Island SPA ,"Karaliaus Mindaugo pr. 49, Kaunas (AKROPOLIS) ",+370 700 77 776,kaunas@eastisland.lt,https://www.eastisland.lt/kaunas-spa-centras/,I - VII 10:00 - 21:00,I - VII 10:00 - 21:00,,,SPA AND WELLNESS CENTERS
+221,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/km-studija/,KM Studija,"Karaliaus Mindaugo pr. 55, Kaunas", +370 640 88244,info@kmstudija.lt,http://kmstudija.lt/,,,,,SPA AND WELLNESS CENTERS
+222,http://visit.kaunas.lt/en/to-do/nightlife/night-clubs/aperitivo/,Aperitivo,Laisvės al. 27 Kaunas,+370 699 17570,aperitivo.kaunas@gmail.com,https://www.facebook.com/aperitivo.kaunas/,"I - IV 17:00 - 23:00
+V - VI 17:00 - 04:00
+VII 17:00 - 23:00","I - IV 17:00 - 23:00
+V - VI 17:00 - 04:00
+VII 17:00 - 23:00",,,NIGHT CLUBS
+223,http://visit.kaunas.lt/en/to-do/shopping/boutique/minimalistas/,Minimalistas,"Pilies g. 1, Kaunas",+370 612 88 996,info@minimalistas.lt,http://minimalistas.lt/,,,,,BOUTIQUE
+224,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/5-senses/,5 Senses,"Miško g. 13, Kaunas",+370 620 33707,info@5senses.lt,http://5senses.lt/#top,,,,,SPA AND WELLNESS CENTERS
+225,http://visit.kaunas.lt/en/to-do/shopping/boutique/lakstingala-ir-roze/,Lakštingala ir rožė,Laisvės al. 27 Kaunas,+370 689 63511, info@lakstingalairroze.com,https://www.facebook.com/Lak%C5%A1tingala-ir-ro%C5%BE%C4%97-1335549679859990/,,,,,BOUTIQUE
+226,http://visit.kaunas.lt/en/to-do/shopping/boutique/modi-du/,Modi Du,"Vilniaus g. 70, Kaunas",+370 610 65417, info@dianavapsve.lt,https://www.dianavapsve.lt/,,,,,BOUTIQUE
+227,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/manor-sauna/,Manor sauna,L.Lekavičiaus g. 2  LT-56337 Rumšiškės,+370 698 33 219,dvaropirtis@gmail.com,http://dvaropirtis.lt/,,,,,SPA AND WELLNESS CENTERS
+228,http://visit.kaunas.lt/en/to-do/shopping/boutique/happeak/,Happeak,"Laisvės al. 45, Kaunas",+370 37 242 277, info@happeak.lt,http://happeak.lt/,,,,,BOUTIQUE
+229,http://visit.kaunas.lt/en/to-do/health-and-leisure/spa-and-wellness-centers/girstutis-pool-and-sport-center/,Girstutis pool and sport center,"Kovo 11-osios g. 26, Kaunas",+370 37 372 820,info@girstuciobaseinas.lt,http://www.girstuciobaseinas.lt/,,,,,SPA AND WELLNESS CENTERS
+230,http://visit.kaunas.lt/en/to-do/shopping/boutique/ramune-piekautaite/,Ramunė Piekautaitė,"Laisvės al. 45, Kaunas",info@ramunepiekautaite.com,+370 614 91 540,https://ramunepiekautaite.com/,,,,,BOUTIQUE
+231,http://visit.kaunas.lt/en/to-do/shopping/boutique/julia-janus/,JULIA JANUS,"Karaliaus Mindaugo pr. 49, Kaunas",+370 671 21 120,boutique.kaunas@juliajanus.com,https://juliajanus.lt/,,,,,BOUTIQUE
+232,http://visit.kaunas.lt/en/to-do/shopping/boutique/sirena/,Sirena,"A. Mickevičiaus g. 17, Kaunas",+370 37 321 403,sirena@sirena.lt,http://sirena.lt/,,,, ,BOUTIQUE
+233,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/trial-room-escape-room/,Trial Room - escape room ,"Ožeškienės 18A, Kaunas",+370 654 64 739,isbandymukambarys@gmail.com,www.trialroom.lt,,,,,TASK ROOMS
+234,http://visit.kaunas.lt/en/to-do/shopping/boutique/coaty-coat/,COATY COAT,"A. Juozapavičiaus Pr. 31-10, Kaunas",+370 695 29 294,info@coatycoat.com,https://www.coatycoat.com/,,,,Coaty Coat is a new platform for designing and ordering hand-made premium fabrics coats! ,BOUTIQUE
+235,http://visit.kaunas.lt/en/to-do/shopping/boutique/harmman/,Harmman,"Karaliaus Mindaugo pr. 64-42, Kaunas",+370 688 34 283, info@harmmanfashion.com,https://harmmanfashion.com/,,,,,BOUTIQUE
+236,http://visit.kaunas.lt/en/to-do/shopping/boutique/moods-studio/,MOODS Studio,"Pilies g. 1, Kaunas",+370 643 18 700,info@moods.lt,https://www.facebook.com/moods.lt/,,,,,BOUTIQUE
+237,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/atrakink-escape-room/,"""Atrakink"" escape room","Kęstučio g. 54, Kaunas",+370 683 49 831,info@atrakink.lt,www.atrakink.lt,,,,,TASK ROOMS
+238,http://visit.kaunas.lt/en/to-do/shopping/boutique/closte-clothes/,Closté Clothes,"J. Jablonskio g. 13, Kaunas",+370 602 63124,info@clo.lt,http://www.clo.lt/,,,,,BOUTIQUE
+239,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/beglys/,"Escape room ""Bėglys""","Rotušės a. 23, Kaunas",+370 684 21 425,info@beglys.lt,http://www.beglys.lt/,,,,,TASK ROOMS
+240,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/minotauras/,MINOTAURAS ,"Kaimynų g. 9, Kaunas ",+370 636 36 363,info@minotauras.lt,www.minotauras.lt,"I - V 08:00 - 22:00
+VI 09:00 - 16:00
+VII 09:00 - 15:00","I - V 08:00 - 22:00
+VI 09:00 - 16:00
+VII 09:00 - 15:00",,"""Minotauras"" sport club.",SPORT CLUBS
+241,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/escape-kaunas-pabegimo-kambarys/,Escape Kaunas ,"Gedimino g. 48, Kaunas",+370 674 21 015,info@escapekaunas.lt,http://escapekaunas.lt/,,,,,TASK ROOMS
+242,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/ifninity-room-pabegimo-kambarys/,INFINITY ROOM ,"Raudondvario pl. 184, Kaunas",+370 684 34 273,info@infinityroom.lt,http://infinityroom.lt/,,,,,TASK ROOMS
+243,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/baltai-sport-and-wellness-club/,BALTAI sport and wellness club,"Baltų pr.55, Kaunas",+370 372 42 343,baltai55@yahoo.com,http://www.baltai.net/,"I - V 06:30 - 21:30
+VI - VII 09:00 - 15:00
+","I - V 06:30 - 21:30
+VI - VII 09:00 - 15:00
+",,,SPORT CLUBS
+244,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/didysis-grifas/,DIDYSIS GRIFAS,"K. Donelaičio g. 75B, Kaunas",+370 675 70 008,didysisgrifas@gmail.com,http://www.didysisgrifas.lt/,"I - V 10:00 − 20:30
+VI 10:00 − 15:00","I - V 10:00 − 20:30
+VI 10:00 − 15:00",,,SPORT CLUBS
+245,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/maze-brain/,Maze Brain,"Girstupio 1, Kaunas",+370 674 36 772,info@mazebrain.lt., www.mazebrain.lt,,,,,TASK ROOMS
+246,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/jump-aerobic-studio/,JumP aerobic studio,"Vėtrungės g. 1, Kaunas",+370 673 47 956,aerobikajump@gmail.com,http://www.aerobikajump.lt/,,,,,SPORT CLUBS
+247,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/lost-escape/,Lost Escape,"Juozapavičiaus pr. 3L, Kaunas",+370 601 01 027,info@lostescape.lt,https://www.lostescape.lt/,,,,,TASK ROOMS
+248,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/samurajus-fight-club/,"""SAMURAJUS"" fight club","Partizanų g. 14, Kaunas",+370 616 00 645,samurajus@shotokan.lt,http://www.samurajus.lt,,,,,SPORT CLUBS
+249,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/fitclub/,FITCLUB,"Šiaurės pr. 8 D, Kaunas",(8-37) 249 616,info@fitclub.lt,http://www.fitclub.lt,"I - IV 06:00 - 23:00
+V 06:00 - 21:30
+VI - VII 10:00 - 18:00","I - IV 06:00 - 23:00
+V 06:00 - 21:30
+VI - VII 10:00 - 18:00",,,SPORT CLUBS
+250,http://visit.kaunas.lt/en/to-do/active-leisure/task-rooms/karma-room/,KARMA Room,"Laisvės al. 59, Kaunas",+370 622 01 013,info@karmaroom.lt,http://www.karmaroom.lt,"-
+","-
+",,,TASK ROOMS
+251,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/titanas/,TITANAS,"Jonavos g. 254,  Kaunas",+370 698 22 063,marius@titanas.lt,http://www.titanasgym.lt/,,,,,SPORT CLUBS
+252,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/cunamis/,CUNAMIS,"V. Krėvės pr. 50, Kaunas",+370 650 78 644,info@cunamis.lt,www.facebook.com/pg/CunamisFightClub,,,,,SPORT CLUBS
+253,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/gymplius/,GymPlius,"Baltų pr. 49, Kaunas; V. Krėvės pr. 13, Kaunas",+370 614 33 555,info@gymplius.lt,www.gymplius.lt,I-VII 00:00 - 00:00,I-VII 00:00 - 00:00,, ,SPORT CLUBS
+254,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/sportgates/,SportGates,"Vytauto pr. 23, Kaunas",+370 622 27 755,info@sportgates.lt,www.sportgates.lt,I-VII 00:00-24:00,I-VII 00:00-24:00,,"SportGates is a new, vibrant, unstoppable 24/7 sport club in Kaunas. At the very heart of Kaunas Old Town you can find 100 high-quality fitness machines, professional trainers, administration and parking lots.",SPORT CLUBS
+255,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/naujas-lankytinos-vietos-4/,Pegasas,"Savanorių pr. 172, Kaunas",+370 674 64 952,info@pegasas-gym.lt,www.pegasas-gym.lt,"I-IV: 06:00 – 23:00
+V: 06:00 – 22:00
+VI-VII: 10:00 – 15:00","I-IV: 06:00 – 23:00
+V: 06:00 – 22:00
+VI-VII: 10:00 – 15:00",,,SPORT CLUBS
+256,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/naujas-lankytinos-vietos-5/,SIL sports center,"Savanorių pr. 276, Kaunas",+370 671 51 215,info@silcentras.lt,www.silcentras.lt,"I - IV 7:00 – 22:00
+V 7:00 – 21:00
+VI - VII 10:00 – 16:00","I - IV 7:00 – 22:00
+V 7:00 – 21:00
+VI - VII 10:00 – 16:00",,Even the most sophisticated customers can enjoy high-quality workouts in SIL sports center. Qualified sports and health professionals are always ready to help to reach your goals.,SPORT CLUBS
+257,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/dzymas/,Džymas,"Šiaurės pr. 8C, Kaunas",+370 689 29 002,sportoklubas@dzymas.lt,www.dzymas.lt,"I - IV 06:30 - 22:30
+V 06:30 - 22:00
+VI - VII 09:00 - 15:00
+","I - IV 06:30 - 22:30
+V 06:30 - 22:00
+VI - VII 09:00 - 15:00
+",,"Sport club ""Džymas"" offers you p",SPORT CLUBS
+258,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/shape-gym/,Shape Gym,"Šiaurės pr. 44, Kaunas",+370 606 12 364,info@shapegym.lt,www.shapegym.lt,"I - V 06:00 - 23:00 
+VI - VII 09:00 - 16:00","I - V 06:00 - 23:00 
+VI - VII 09:00 - 16:00",,"New, cozy, modern sport club in Kaunas city.",SPORT CLUBS
+259,http://visit.kaunas.lt/en/to-do/health-and-leisure/sport-clubs/aerial-yoga-studio/,Aerial Yoga studio,"Jonavos g. 68, Kaunas",+370 641 59 910,info@camijoga.lt ,www.camijoga.lt,,,,,SPORT CLUBS
+260,http://visit.kaunas.lt/en/to-do/tours/tours-in-lithuania/along-the-kings-road/,Along the Kings road ,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN LITHUANIA
+261,http://visit.kaunas.lt/en/to-do/tours/tours-in-lithuania/the-oldest-capitals-of-lithuania/,The oldest capitals of Lithuania ,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN LITHUANIA
+262,http://visit.kaunas.lt/en/to-do/tours/tours-in-lithuania/culture-heritage-in-anyksciai/,Culture heritage in Anykščiai ,"Laisvės al. 36, Kaunas", +370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN LITHUANIA
+263,http://visit.kaunas.lt/en/to-do/tours/tours-in-lithuania/radvilos-and-bisons/,Radvilos and bisons ,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN LITHUANIA
+264,http://visit.kaunas.lt/en/to-do/tours/tours-in-lithuania/a-salty-lesson-in-druskininkai/,A salty lesson in Druskininkai,"Laisvės al. 36, Kaunas",+370 37 323 436,info@kaunastic.lt,,,,,,TOURS IN LITHUANIA
+265,http://visit.kaunas.lt/en/eat-and-drink/restaurants/dinner-in-the-sky/,Dinner in the sky,Kaunas,+370 618 23 086,info@ambertonair.com,http://ambertonhotels.com/lt/vilnius/amberton-air-restoranas-danguje/,,,,,RESTAURANTS
+266,http://visit.kaunas.lt/en/to-do/events/conferences/7th-baltic-congress-of-radiology/,7th Baltic Congress of Radiology,"Park Inn by Radisson Kaunas, K. Donelaičio st. 27",,,Web site,"
+						2018 10 04
+						
+
+						
+							
+							   - 2018 10 06
+							
+						
+					","
+						2018 10 04
+						
+
+						
+							
+							   - 2018 10 06
+							
+						
+					",,,CONFERENCES
+267,http://visit.kaunas.lt/en/to-do/events/conferences/modernizmas-ateiciai/,Modernizmas ateičiai,Kauno Žalgirio arena,,,Web site,"
+						2018 09 12
+						 10:00
+
+						
+							
+							   - 2018 09 13
+							
+						
+					","
+						2018 09 12
+						 10:00
+
+						
+							
+							   - 2018 09 13
+							
+						
+					",,"2018-ieji Europos Sąjungoje paskelbti Europos kultūros paveldo metais. Ši iniciatyva sutampa su Lietuvos valstybės atkūrimo šimtmečiu, tadėl Lietuvoje ypatingas dėmesys skiriamas modernizacijos ženklams, ypač modernizmo architektūrai.",CONFERENCES
+268,http://visit.kaunas.lt/en/to-do/events/other/popiezius-pranciskus-lietuvoje/,Popiežius Pranciškus Lietuvoje,,,,Web site,"
+						2018 09 22
+						
+
+						
+							
+							   - 2018 09 23
+							
+						
+					","
+						2018 09 22
+						
+
+						
+							
+							   - 2018 09 23
+							
+						
+					",,Dviejų dienų vizito Lietuvoje metu Popiežius aplankys Vilnių ir Kauną. ,OTHER
+269,http://visit.kaunas.lt/en/to-do/events/concerts/legends-80s-al-bano-thomas-anders-haddaway-secret-service/,"Legends 80's Al Bano, Thomas Anders, Haddaway, Secret Service","Kauno Žalgirio arena, Karaliaus Mindaugo pr. 50",,,Web site,"
+						2018 11 17
+						 20:00
+
+						
+					","
+						2018 11 17
+						 20:00
+
+						
+					",30.70-80.70 Eur,,CONCERTS
+270,http://visit.kaunas.lt/en/to-do/events/festivals/sugiharos-savaite-2018/,Sugihara Week 2018,Kaunas,,,Web site,"
+						2018 09 03
+						
+
+						
+							
+							   - 2018 09 09
+							
+						
+					","
+						2018 09 03
+						
+
+						
+							
+							   - 2018 09 09
+							
+						
+					",,,FESTIVALS
